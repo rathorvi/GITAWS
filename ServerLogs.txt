@@ -1,0 +1,1097 @@
+INFO: Cookie name is SDASESSIONTest and value is AQIC5wM2LY4SfcyvmaCD%2FX4iyQyb01E9VsWv%2Fri2WMqY%2F0s%3D%40AAJTSQACOTkAAlMxAAIwMQ%3D%3D%23 and path is null
+Sep 04, 2017 3:59:56 PM com.cramer.core.sso.SSOHelper logOut
+INFO: Cookie name is BIGipServer~p-RAAEDN-71~lbvip0552.app~pool-http-10.75.71.164-443-lbvip0552 and value is rd16o00000000000000000000ffff0a4b0f34o81 and path is null
+Sep 04, 2017 3:59:56 PM com.cramer.core.sso.SSOHelper logOut
+INFO: Cookie name is JSESSIONID and value is 8jlLZWgJ9iPs-6NXLyowvAH1w6fY_B7FUuwHvRC-hVn2m8pvYUnd!1227421300 and path is null
+Sep 04, 2017 4:00:08 PM com.cramer.core.sso.LoginRedirectorServlet getLastModified
+INFO: getLastModified() request for https://usm-sqi.eomsys.cloud.corp.telstra.com:443/CramerOSS/Login/SessionDefinition.jsp
+Sep 04, 2017 4:00:08 PM com.cramer.core.sso.LoginRedirectorServlet doMethod
+INFO: Delegating to SSOHelper: requested URL is https://usm-sqi.eomsys.cloud.corp.telstra.com:443/CramerOSS/Login/SessionDefinition.jsp
+and session id is 8jlLZWgJ9iPs-6NXLyowvAH1w6fY_B7FUuwHvRC-hVn2m8pvYUnd!1227421300!1504504808557
+Sep 04, 2017 4:00:08 PM com.cramer.core.sso.SSOHelper getSSOHandler
+INFO: SSOImpl object is com.cramer.core.sso.SSOHandlerSimpleImpl_Cust@73dd5597
+Sep 04, 2017 4:00:08 PM com.cramer.core.sso.SSOHandlerSimpleImpl_Cust setCredentials
+INFO: SSOHandlerSimpleImpl_Cust Requested URL is https://usm-sqi.eomsys.cloud.corp.telstra.com:443/CramerOSS/Login/SessionDefinition.jsp
+and session id is 8jlLZWgJ9iPs-6NXLyowvAH1w6fY_B7FUuwHvRC-hVn2m8pvYUnd!1227421300!1504504808557
+Sep 04, 2017 4:00:08 PM com.cramer.core.sso.SSOHandlerSimpleImpl_Cust setCredentials
+INFO: SSOHandlerSimpleImpl_Cust Request headerUsername d865881
+Sep 04, 2017 4:00:08 PM com.cramer.core.sso.SSOHandlerSimpleImpl_Cust setCredentials
+INFO: SSOHandlerSimpleImpl_Cust Request handler class : com.cramer.core.sso.SSOHelper
+Sep 04, 2017 4:00:08 PM com.cramer.core.sso.SSOHandlerSimpleImpl_Cust setCredentials
+INFO: SSOHandlerSimpleImpl_Cust Request CommonHelper.isSSOModeASM() inside
+Sep 04, 2017 4:00:08 PM com.cramer.core.sso.SSOHandlerSimpleImpl_Cust setCredentials
+INFO: SSOHandlerSimpleImpl_Cust Request SSO_PASS** Welcome1
+Sep 04, 2017 4:00:08 PM com.cramer.core.sso.SSOHandlerSimpleImpl_Cust setCredentials
+INFO: SSOHandlerSimpleImpl_Cust Request CommonHelper.isSSOModeASM() ASMSSOTicket : Tksmau3yMXXeGH1vGbgjzept5}KDf0a3ZoSnz8h0
+Sep 04, 2017 4:00:08 PM com.cramer.core.sso.SSOHelper getCookieScope
+INFO: Cookie scope is /CramerOSS
+Sep 04, 2017 4:00:08 PM com.cramer.core.sso.SSOHelper getCookieDomain
+INFO: Cookie domain is
+Sep 04, 2017 4:00:08 PM com.cramer.core.session.UserSessionManager getSessionObject
+INFO: SSO ticket not found, returning null
+Sep 04, 2017 4:00:08 PM com.cramer.core.session.impl.SessionObjectImpl setup
+INFO: SessionObjectImpl CSRFToken = 7e94d53f1b7ab7b6c66230f2543a1be2
+Sep 04, 2017 4:00:08 PM com.cramer.core.sso.SSOHandlerSimpleImpl_Cust setCredentials
+INFO: SSOHandlerSimpleImpl_Cust Request Called handler.setCredentialsForAsmTicket : Tksmau3yMXXeGH1vGbgjzept5}KDf0a3ZoSnz8h0
+Sep 04, 2017 4:00:08 PM com.cramer.core.sso.LoginRedirectorServlet doMethod
+INFO: GET request for https://usm-sqi.eomsys.cloud.corp.telstra.com:443/CramerOSS/Login/SessionDefinition.jsp with query string null
+Sep 04, 2017 4:00:08 PM com.cramer.core.sso.LoginRedirectorServlet doMethod
+INFO: Redirecting to https://usm-sqi.eomsys.cloud.corp.telstra.com:443/CramerOSS/Client/SessionDefinition.jsp?loginURL=https%3A%2F%2Fusm-sqi.eomsys.cloud.corp.telstra.com%3A443%2FCramerOSS%2FLogin%2FSessionDefinition.jsp&csrftoken=7e94d53f1b7ab7b6c66230f2543a1be2
+Sep 04, 2017 4:00:09 PM com.cramer.core.sso.SSOHelper getASMTicketFromCookie
+INFO: Found ASM Cookie
+Sep 04, 2017 4:00:09 PM com.cramer.core.sso.ApplicationFilter initialiseASMSession
+INFO: Cookie value did not match value stored on http session. Re-creating the session...
+Sep 04, 2017 4:00:09 PM com.cramer.core.sso.ApplicationFilter initialiseASMSession
+INFO: Session is now NEW
+Sep 04, 2017 4:00:09 PM com.cramer.core.sso.ApplicationFilter initialiseASMSession
+INFO: Setting user credential .
+Sep 04, 2017 4:00:09 PM com.cramer.core.sso.ApplicationFilter checkForCSRFAttack
+INFO: ApplicatioFilter: CSRF attack validation is not required...true
+Sep 04, 2017 4:00:09 PM com.cramer.core.sso.ApplicationFilter doFilter
+INFO: Setting applicationName = null
+Sep 04, 2017 4:00:09 PM com.cramer.core.taglib.CramerSessionPreferenceTag getCollectionOfValues
+INFO: Returning a collection of instance names
+Sep 04, 2017 4:00:09 PM com.cramer.core.taglib.CramerSessionPreferenceTag getCollectionOfInstanceNames
+INFO: Attempting to find Instance name from CramerInstanceLocator
+Sep 04, 2017 4:00:09 PM com.cramer.core.taglib.CramerSessionPreferenceTag getCollectionOfInstanceNames
+INFO: The User is cn=d865881,cn=Users,dc=USM1AT
+Sep 04, 2017 4:00:09 PM com.cramer.core.taglib.CramerSessionPreferenceTag doStartTag
+INFO: getListId()=instanceList,Collection size=1
+Sep 04, 2017 4:00:09 PM com.cramer.core.taglib.CramerSessionPreferenceTag doStartTag
+INFO: cookieName=d865881_instance,value=USM1AT
+Sep 04, 2017 4:00:09 PM com.cramer.core.taglib.CramerSessionPreferenceTag doStartTag
+INFO: getListId()=instanceList,Collection size=1
+Sep 04, 2017 4:00:09 PM com.cramer.core.taglib.CramerSessionPreferenceTag doStartTag
+INFO: cookieName=d865881_instance,value=USM1AT
+Sep 04, 2017 4:00:09 PM com.cramer.core.taglib.CramerSessionPreferenceTag getCollectionOfValues
+INFO: Returning a collection of Layout names
+Sep 04, 2017 4:00:09 PM com.cramer.core.taglib.CramerSessionPreferenceTag getCollectionOfInstanceNames
+INFO: Attempting to find Instance name from CramerInstanceLocator
+Sep 04, 2017 4:00:09 PM com.cramer.core.taglib.CramerSessionPreferenceTag getCollectionOfInstanceNames
+INFO: The User is cn=d865881,cn=Users,dc=USM1AT
+Sep 04, 2017 4:00:09 PM com.cramer.core.taglib.CramerSessionPreferenceTag doStartTag
+INFO: getListId()=layoutList,Collection size=3
+Sep 04, 2017 4:00:09 PM com.cramer.core.taglib.CramerSessionPreferenceTag doStartTag
+INFO: cookieName=d865881_layout,value=usm
+Sep 04, 2017 4:00:09 PM com.cramer.core.framework.service.UserPreferenceImpl populateJndiProperties
+INFO: connProps {}
+Sep 04, 2017 4:00:09 PM com.cramer.core.framework.service.UserPreferenceImpl populateJndiProperties
+INFO: authProps {java.naming.security.principal=cn=d865881,cn=Users,dc=USM1AT, com.cramer.asm_ticket=Tksmau3yMXXeGH1vGbgjzept5}KDf0a3ZoSnz8h0}
+Sep 04, 2017 4:00:09 PM com.cramer.core.framework.service.UserPreferenceImpl getPropertyFromContext
+INFO: Getting the env variables from the web.xml
+Sep 04, 2017 4:00:09 PM com.cramer.core.framework.service.UserPreferenceImpl createServiceProxyObject
+INFO: creating the proxy object for UserPreferenceService
+Sep 04, 2017 4:00:09 PM com.cramer.core.framework.service.UserPreferenceImpl createProxyFactory
+INFO: Creating proxy factory
+Sep 04, 2017 4:00:09 PM com.cramer.core.framework.service.UserPreferenceImpl getPropertyFromContext
+INFO: Getting the env variables from the web.xml
+Sep 04, 2017 4:00:09 PM com.cramer.core.proxy.MappedRMIServiceDispatcherFactory createDispatcher
+INFO: Creating dispatcher for com.cramer.core.framework.service.UserPreferenceService
+Sep 04, 2017 4:00:09 PM com.cramer.core.common.WebAppRMIContextManager createInitialContext
+INFO: Created context for provider iiop://lxapp6300.dc.corp.telstra.com:8002 in 0 ms
+Sep 04, 2017 4:00:09 PM com.cramer.core.framework.serviceimpl.UserPreferenceServiceImpl auth
+INFO: Preferences requested without an instance name - no instance preferences will be returned
+Sep 04, 2017 4:00:09 PM com.cramer.core.framework.service.UserPreferenceImpl getPreference
+INFO: LocalePreference is cached  in the Session .
+Sep 04, 2017 4:00:09 PM com.cramer.core.taglib.LocaleTag doStartTag
+INFO: Locale value read from CramerLocale as en
+Sep 04, 2017 4:00:09 PM com.cramer.core.taglib.LocaleTag doStartTag
+INFO: The locale is :en
+Sep 04, 2017 4:00:09 PM com.cramer.core.taglib.MiscValuesTag getLogoutUrlValue
+INFO: Obtaining logout url....
+Sep 04, 2017 4:00:09 PM com.cramer.core.taglib.MiscValuesTag getLogoutUrlValue
+INFO: LOGOUTURL_ENV_KEY=cramer5logouturl
+Sep 04, 2017 4:00:09 PM com.cramer.core.taglib.MiscValuesTag getLogoutUrlValue
+INFO: logout url found as../Login/Logout
+Sep 04, 2017 4:00:09 PM com.cramer.core.taglib.MiscValuesTag getLogoutUrlValue
+INFO: Obtaining logout url....
+Sep 04, 2017 4:00:09 PM com.cramer.core.taglib.MiscValuesTag getLogoutUrlValue
+INFO: LOGOUTURL_ENV_KEY=cramer5logouturl
+Sep 04, 2017 4:00:09 PM com.cramer.core.taglib.MiscValuesTag getLogoutUrlValue
+INFO: logout url found as../Login/Logout
+Sep 04, 2017 4:00:09 PM com.cramer.core.taglib.MiscValuesTag getUserName
+INFO: The User is d865881
+Sep 04, 2017 4:00:09 PM com.cramer.core.taglib.MiscValuesTag getUserName
+INFO: The User is d865881
+Sep 04, 2017 4:00:09 PM com.cramer.core.instancelocator.CramerInstanceLocatorImpl getInstanceDescription
+INFO: ____ Instance DN ____ cn=USM1AT,cn=CramerInstances,cn=CramerContext,dc=USM1AT
+Sep 04, 2017 4:00:09 PM com.cramer.core.instancelocator.CramerInstanceLocatorImpl getInstanceDescription
+INFO: ____ Instance Description ____ USM1AT
+Sep 04, 2017 4:00:09 PM com.cramer.core.sso.ApplicationFilter doFilter
+INFO: Setting applicationName = null
+Sep 04, 2017 4:00:09 PM com.cramer.core.taglib.DescriptionTag doEndTag
+INFO: Description returned is Resource browser + detail pane
+Sep 04, 2017 4:00:09 PM com.cramer.core.taglib.DescriptionTag doEndTag
+INFO: Getting description for /layouts/usm.jsp
+Sep 04, 2017 4:00:09 PM com.cramer.core.sso.SSOHelper getASMTicketFromCookie
+INFO: Found ASM Cookie
+Sep 04, 2017 4:00:09 PM com.cramer.core.sso.ApplicationFilter checkForCSRFAttack
+INFO: ApplicatioFilter: CSRF attack validation is not required...true
+Sep 04, 2017 4:00:09 PM com.cramer.core.sso.ApplicationFilter doFilter
+INFO: Setting applicationName = null
+Sep 04, 2017 4:00:09 PM com.cramer.core.taglib.DescriptionTag doEndTag
+INFO: Description returned is USM
+Sep 04, 2017 4:00:09 PM com.cramer.core.taglib.DescriptionTag doEndTag
+INFO: Getting description for /layouts/Cramer5.jsp
+Sep 04, 2017 4:00:09 PM com.cramer.core.sso.SSOHelper getASMTicketFromCookie
+INFO: Found ASM Cookie
+Sep 04, 2017 4:00:09 PM com.cramer.core.sso.ApplicationFilter checkForCSRFAttack
+INFO: ApplicatioFilter: CSRF attack validation is not required...true
+Sep 04, 2017 4:00:09 PM com.cramer.core.sso.ApplicationFilter doFilter
+INFO: Setting applicationName = null
+Sep 04, 2017 4:00:09 PM com.cramer.core.taglib.DescriptionTag doEndTag
+INFO: Description returned is Standard layout
+Sep 04, 2017 4:00:09 PM com.cramer.core.instancelocator.CramerInstanceLocatorImpl getInstanceDescription
+INFO: ____ Instance DN ____ cn=USM1AT,cn=CramerInstances,cn=CramerContext,dc=USM1AT
+Sep 04, 2017 4:00:09 PM com.cramer.core.instancelocator.CramerInstanceLocatorImpl getInstanceDescription
+INFO: ____ Instance Description ____ USM1AT
+Sep 04, 2017 4:00:09 PM com.cramer.core.taglib.DescriptionTag doEndTag
+INFO: Getting description for /layouts/usm.jsp
+Sep 04, 2017 4:00:09 PM com.cramer.core.sso.SSOHelper getASMTicketFromCookie
+INFO: Found ASM Cookie
+Sep 04, 2017 4:00:09 PM com.cramer.core.sso.ApplicationFilter checkForCSRFAttack
+INFO: ApplicatioFilter: CSRF attack validation is not required...true
+Sep 04, 2017 4:00:09 PM com.cramer.core.sso.ApplicationFilter doFilter
+INFO: Setting applicationName = null
+Sep 04, 2017 4:00:09 PM com.cramer.core.taglib.DescriptionTag doEndTag
+INFO: Description returned is USM
+Sep 04, 2017 4:00:10 PM com.cramer.core.sso.SSOHelper getASMTicketFromCookie
+INFO: Found ASM Cookie
+Sep 04, 2017 4:00:10 PM com.cramer.core.sso.ApplicationFilter checkForCSRFAttack
+INFO: ApplicatioFilter: CSRF attack validation is not required...true
+Sep 04, 2017 4:00:10 PM com.cramer.core.sso.SSOHelper getASMTicketFromCookie
+INFO: Found ASM Cookie
+Sep 04, 2017 4:00:10 PM com.cramer.core.sso.ApplicationFilter checkForCSRFAttack
+INFO: ApplicatioFilter: CSRF attack validation is not required...true
+Sep 04, 2017 4:00:11 PM com.cramer.core.sso.SSOHelper getASMTicketFromCookie
+INFO: Found ASM Cookie
+Sep 04, 2017 4:00:11 PM com.cramer.core.sso.ApplicationFilter checkForCSRFAttack
+INFO: ApplicatioFilter: CSRF attack validation is not required...true
+Sep 04, 2017 4:00:16 PM com.cramer.core.sso.SSOHelper getASMTicketFromCookie
+INFO: Found ASM Cookie
+Sep 04, 2017 4:00:16 PM com.cramer.core.sso.ApplicationFilter checkForCSRFAttack
+INFO: ApplicatioFilter: CSRF attack validation is not required...true
+Sep 04, 2017 4:00:16 PM com.cramer.core.web.MessageDisplayFilter hasCookie
+INFO: Found instance cookie
+Sep 04, 2017 4:00:16 PM com.cramer.core.instancelocator.CramerInstanceLocatorImpl getInstanceDescription
+INFO: ____ Instance DN ____ cn=USM1AT,cn=CramerInstances,cn=CramerContext,dc=USM1AT
+Sep 04, 2017 4:00:16 PM com.cramer.core.instancelocator.CramerInstanceLocatorImpl getInstanceDescription
+INFO: ____ Instance Description ____ USM1AT
+Sep 04, 2017 4:00:16 PM com.cramer.core.sso.SSOHelper getASMTicketFromCookie
+INFO: Found ASM Cookie
+INFO: ApplicatioFilter: CSRF attack validation is not required...true
+Sep 04, 2017 4:00:16 PM com.cramer.core.taglib.PanelSetTag doStartTag
+INFO: Locale is English layout is ltr; locale is ltr; reverse = false
+Sep 04, 2017 4:00:16 PM com.cramer.core.sso.SSOHelper getASMTicketFromCookie
+INFO: Found ASM Cookie
+Sep 04, 2017 4:00:16 PM com.cramer.core.sso.ApplicationFilter checkForCSRFAttack
+INFO: ApplicatioFilter: CSRF attack validation is not required...true
+Sep 04, 2017 4:00:16 PM com.cramer.core.sso.SSOHelper getASMTicketFromCookie
+INFO: Found ASM Cookie
+Sep 04, 2017 4:00:16 PM com.cramer.core.sso.ApplicationFilter checkForCSRFAttack
+INFO: ApplicatioFilter: CSRF attack validation is not required...true
+Sep 04, 2017 4:00:16 PM com.cramer.core.sso.SSOHelper getASMTicketFromCookie
+INFO: Found ASM Cookie
+Sep 04, 2017 4:00:16 PM com.cramer.core.sso.ApplicationFilter checkForCSRFAttack
+INFO: ApplicatioFilter: CSRF attack validation is not required...true
+Sep 04, 2017 4:00:17 PM com.cramer.core.sso.SSOHelper getASMTicketFromCookie
+INFO: Found ASM Cookie
+Sep 04, 2017 4:00:17 PM com.cramer.core.sso.ApplicationFilter checkForCSRFAttack
+INFO: ApplicatioFilter: CSRF attack validation is not required...true
+Sep 04, 2017 4:00:17 PM com.cramer.core.web.MessageDisplayFilter hasCookie
+INFO: Found instance cookie
+Sep 04, 2017 4:00:17 PM com.cramer.core.sso.SSOHelper getASMTicketFromCookie
+INFO: Found ASM Cookie
+Sep 04, 2017 4:00:17 PM com.cramer.core.sso.ApplicationFilter checkForCSRFAttack
+INFO: ApplicatioFilter: CSRF attack validation is not required...true
+Sep 04, 2017 4:00:17 PM com.cramer.core.sso.SSOHelper getASMTicketFromCookie
+INFO: Found ASM Cookie
+Sep 04, 2017 4:00:17 PM com.cramer.core.instancelocator.CramerInstanceLocatorImpl getContainerLocation
+INFO: CramerInstanceLocatorImpl:getContainerLocation(): location for app BootServices for tier com.cramer.instancelocatorlocator.web for instance com.cramer.core.instancelocator.CramerInstanceLocatorImpl$CramerInstance@42feda6a is https://usm-sqi.eomsys.cloud.corp.telstra.com/CramerOSS/
+Sep 04, 2017 4:00:17 PM com.cramer.core.sso.ApplicationFilter checkForCSRFAttack
+INFO: ApplicatioFilter: CSRF attack validation is not required...true
+Sep 04, 2017 4:00:17 PM com.cramer.core.web.MessageDisplayFilter hasCookie
+INFO: Found instance cookie
+Sep 04, 2017 4:00:17 PM com.cramer.core.web.MessageDisplayFilter hasCookie
+INFO: Found instance cookie
+Sep 04, 2017 4:00:17 PM com.cramer.core.instancelocator.CramerInstanceLocatorImpl getContainerLocation
+INFO: CramerInstanceLocatorImpl:getContainerLocation(): location for app BootServices for tier com.cramer.instancelocatorlocator.web for instance com.cramer.core.instancelocator.CramerInstanceLocatorImpl$CramerInstance@42feda6a is https://usm-sqi.eomsys.cloud.corp.telstra.com/CramerOSS/
+Sep 04, 2017 4:00:17 PM com.cramer.core.sso.SSOHelper getASMTicketFromCookie
+INFO: Found ASM Cookie
+Sep 04, 2017 4:00:17 PM com.cramer.core.sso.ApplicationFilter checkForCSRFAttack
+INFO: ApplicatioFilter: CSRF attack validation is not required...true
+Sep 04, 2017 4:00:17 PM com.cramer.core.sso.SSOHelper getASMTicketFromCookie
+INFO: Found ASM Cookie
+Sep 04, 2017 4:00:17 PM com.cramer.core.sso.ApplicationFilter checkForCSRFAttack
+INFO: ApplicatioFilter: CSRF attack validation is not required...true
+Sep 04, 2017 4:00:17 PM com.cramer.core.sso.SSOHelper getASMTicketFromCookie
+INFO: Found ASM Cookie
+Sep 04, 2017 4:00:17 PM com.cramer.core.sso.ApplicationFilter checkForCSRFAttack
+INFO: ApplicatioFilter: CSRF attack validation is not required...true
+Sep 04, 2017 4:00:17 PM com.cramer.core.sso.SSOHelper getASMTicketFromCookie
+INFO: Found ASM Cookie
+Sep 04, 2017 4:00:17 PM com.cramer.core.sso.ApplicationFilter checkForCSRFAttack
+INFO: ApplicatioFilter: CSRF attack validation is not required...true
+Sep 04, 2017 4:00:17 PM com.cramer.core.sso.SSOHelper getASMTicketFromCookie
+INFO: Found ASM Cookie
+Sep 04, 2017 4:00:17 PM com.cramer.core.sso.ApplicationFilter checkForCSRFAttack
+INFO: ApplicatioFilter: CSRF attack validation is not required...true
+Sep 04, 2017 4:00:17 PM com.cramer.core.web.MessageDisplayFilter hasCookie
+INFO: Found instance cookie
+Sep 04, 2017 4:00:17 PM com.cramer.core.instancelocator.CramerInstanceLocatorImpl getContainerLocation
+Sep 04, 2017 4:00:17 PM com.cramer.core.instancelocator.CramerInstanceLocatorImpl getContainerLocation
+INFO: CramerInstanceLocatorImpl:getContainerLocation(): location for app BootServices for tier com.cramer.instancelocatorlocator.web for instance com.cramer.core.instancelocator.CramerInstanceLocatorImpl$CramerInstance@42feda6a is https://usm-sqi.eomsys.cloud.corp.telstra.com/CramerOSS/
+Sep 04, 2017 4:00:17 PM com.cramer.core.sso.SSOHelper getASMTicketFromCookie
+INFO: Found ASM Cookie
+Sep 04, 2017 4:00:17 PM com.cramer.core.sso.ApplicationFilter checkForCSRFAttack
+INFO: ApplicatioFilter: CSRF attack validation is not required...true
+Sep 04, 2017 4:00:17 PM com.cramer.core.sso.SSOHelper getASMTicketFromCookie
+INFO: Found ASM Cookie
+Sep 04, 2017 4:00:17 PM com.cramer.core.sso.ApplicationFilter checkForCSRFAttack
+INFO: ApplicatioFilter: CSRF attack validation is not required...true
+Sep 04, 2017 4:00:17 PM com.cramer.core.sso.SSOHelper getASMTicketFromCookie
+INFO: Found ASM Cookie
+Sep 04, 2017 4:00:17 PM com.cramer.core.sso.ApplicationFilter checkForCSRFAttack
+INFO: ApplicatioFilter: CSRF attack validation is not required...true
+Sep 04, 2017 4:00:17 PM com.cramer.core.web.MessageDisplayFilter hasCookie
+INFO: Found instance cookie
+Sep 04, 2017 4:00:17 PM com.cramer.core.sso.SSOHelper getASMTicketFromCookie
+INFO: Found ASM Cookie
+Sep 04, 2017 4:00:17 PM com.cramer.core.sso.SSOHelper getASMTicketFromCookie
+INFO: Found ASM Cookie
+Sep 04, 2017 4:00:17 PM com.cramer.core.sso.ApplicationFilter checkForCSRFAttack
+INFO: ApplicatioFilter: CSRF attack validation is not required...true
+Sep 04, 2017 4:00:17 PM com.cramer.core.sso.ApplicationFilter checkForCSRFAttack
+INFO: ApplicatioFilter: CSRF attack validation is not required...true
+Sep 04, 2017 4:00:17 PM com.cramer.core.web.MessageDisplayFilter hasCookie
+INFO: Found instance cookie
+Sep 04, 2017 4:00:17 PM com.cramer.core.web.MessageDisplayFilter hasCookie
+INFO: Found instance cookie
+Sep 04, 2017 4:00:17 PM com.cramer.core.instancelocator.CramerInstanceLocatorImpl getContainerLocation
+INFO: CramerInstanceLocatorImpl:getContainerLocation(): location for app BootServices for tier com.cramer.instancelocatorlocator.web for instance com.cramer.core.instancelocator.CramerInstanceLocatorImpl$CramerInstance@42feda6a is https://usm-sqi.eomsys.cloud.corp.telstra.com/CramerOSS/
+Sep 04, 2017 4:00:17 PM com.cramer.core.instancelocator.CramerInstanceLocatorImpl getContainerLocation
+INFO: CramerInstanceLocatorImpl:getContainerLocation(): location for app BootServices for tier com.cramer.instancelocatorlocator.web for instance com.cramer.core.instancelocator.CramerInstanceLocatorImpl$CramerInstance@42feda6a is https://usm-sqi.eomsys.cloud.corp.telstra.com/CramerOSS/
+Sep 04, 2017 4:00:17 PM com.cramer.core.sso.SSOHelper getASMTicketFromCookie
+INFO: Found ASM Cookie
+Sep 04, 2017 4:00:17 PM com.cramer.core.sso.ApplicationFilter checkForCSRFAttack
+INFO: ApplicatioFilter: CSRF attack validation is not required...true
+Sep 04, 2017 4:00:17 PM com.cramer.core.sso.SSOHelper getASMTicketFromCookie
+INFO: Found ASM Cookie
+Sep 04, 2017 4:00:17 PM com.cramer.core.sso.ApplicationFilter checkForCSRFAttack
+INFO: ApplicatioFilter: CSRF attack validation is not required...true
+Sep 04, 2017 4:00:17 PM com.cramer.core.sso.SSOHelper getASMTicketFromCookie
+INFO: Found ASM Cookie
+Sep 04, 2017 4:00:17 PM com.cramer.core.sso.ApplicationFilter checkForCSRFAttack
+INFO: ApplicatioFilter: CSRF attack validation is not required...true
+Sep 04, 2017 4:00:17 PM com.cramer.core.sso.SSOHelper getASMTicketFromCookie
+INFO: Found ASM Cookie
+Sep 04, 2017 4:00:17 PM com.cramer.core.sso.ApplicationFilter checkForCSRFAttack
+INFO: ApplicatioFilter: CSRF attack validation is not required...true
+Sep 04, 2017 4:00:17 PM com.cramer.core.sso.SSOHelper getASMTicketFromCookie
+INFO: Found ASM Cookie
+Sep 04, 2017 4:00:17 PM com.cramer.core.sso.ApplicationFilter checkForCSRFAttack
+INFO: ApplicatioFilter: CSRF attack validation is not required...true
+Sep 04, 2017 4:00:17 PM com.cramer.core.web.MessageDisplayFilter hasCookie
+INFO: Found instance cookie
+INFO: ApplicatioFilter: CSRF attack validation is not required...true
+Sep 04, 2017 4:00:17 PM com.cramer.core.web.MessageDisplayFilter hasCookie
+INFO: Found instance cookie
+Sep 04, 2017 4:00:17 PM com.cramer.core.sso.SSOHelper getASMTicketFromCookie
+INFO: Found ASM Cookie
+Sep 04, 2017 4:00:17 PM com.cramer.core.sso.ApplicationFilter checkForCSRFAttack
+INFO: ApplicatioFilter: CSRF attack validation is not required...true
+Sep 04, 2017 4:00:17 PM com.cramer.core.web.MessageDisplayFilter hasCookie
+INFO: Found instance cookie
+Sep 04, 2017 4:00:17 PM com.cramer.core.sso.SSOHelper getASMTicketFromCookie
+INFO: Found ASM Cookie
+Sep 04, 2017 4:00:17 PM com.cramer.core.sso.ApplicationFilter checkForCSRFAttack
+INFO: ApplicatioFilter: CSRF attack validation is not required...true
+Sep 04, 2017 4:00:17 PM com.cramer.core.instancelocator.CramerInstanceLocatorImpl getInstanceDescription
+INFO: ____ Instance DN ____ cn=USM1AT,cn=CramerInstances,cn=CramerContext,dc=USM1AT
+Sep 04, 2017 4:00:17 PM com.cramer.core.instancelocator.CramerInstanceLocatorImpl getInstanceDescription
+INFO: ____ Instance Description ____ USM1AT
+Sep 04, 2017 4:00:17 PM com.cramer.core.sso.SSOHelper getASMTicketFromCookie
+INFO: Found ASM Cookie
+Sep 04, 2017 4:00:17 PM com.cramer.core.sso.ApplicationFilter checkForCSRFAttack
+INFO: ApplicatioFilter: CSRF attack validation is not required...true
+Sep 04, 2017 4:00:17 PM com.cramer.core.web.MessageDisplayFilter hasCookie
+INFO: Found instance cookie
+Sep 04, 2017 4:00:17 PM com.cramer.core.instancelocator.CramerInstanceLocatorImpl getContainerLocation
+INFO: CramerInstanceLocatorImpl:getContainerLocation(): location for app BootServices for tier com.cramer.instancelocatorlocator.web for instance com.cramer.core.instancelocator.CramerInstanceLocatorImpl$CramerInstance@42feda6a is https://usm-sqi.eomsys.cloud.corp.telstra.com/CramerOSS/
+Sep 04, 2017 4:00:17 PM com.cramer.core.sso.SSOHelper getASMTicketFromCookie
+INFO: Found ASM Cookie
+Sep 04, 2017 4:00:17 PM com.cramer.core.sso.ApplicationFilter checkForCSRFAttack
+INFO: ApplicatioFilter: CSRF attack validation is not required...true
+Sep 04, 2017 4:00:17 PM com.cramer.core.sso.SSOHelper getASMTicketFromCookie
+INFO: Found ASM Cookie
+Sep 04, 2017 4:00:17 PM com.cramer.core.sso.ApplicationFilter checkForCSRFAttack
+INFO: ApplicatioFilter: CSRF attack validation is not required...true
+Sep 04, 2017 4:00:18 PM com.cramer.core.sso.SSOHelper getASMTicketFromCookie
+INFO: Found ASM Cookie
+Sep 04, 2017 4:00:18 PM com.cramer.core.sso.ApplicationFilter checkForCSRFAttack
+INFO: ApplicatioFilter: CSRF attack validation is not required...true
+Sep 04, 2017 4:00:18 PM com.cramer.core.sso.SSOHelper getASMTicketFromCookie
+INFO: Found ASM Cookie
+Sep 04, 2017 4:00:18 PM com.cramer.core.sso.ApplicationFilter checkForCSRFAttack
+INFO: ApplicatioFilter: CSRF attack validation is not required...true
+Sep 04, 2017 4:00:18 PM com.cramer.core.sso.SSOHelper getASMTicketFromCookie
+INFO: Found ASM Cookie
+Sep 04, 2017 4:00:18 PM com.cramer.core.sso.ApplicationFilter checkForCSRFAttack
+INFO: ApplicatioFilter: CSRF attack validation is not required...true
+Sep 04, 2017 4:00:18 PM com.cramer.core.sso.SSOHelper getASMTicketFromCookie
+INFO: Found ASM Cookie
+Sep 04, 2017 4:00:18 PM com.cramer.core.sso.ApplicationFilter checkForCSRFAttack
+INFO: ApplicatioFilter: CSRF attack validation is not required...true
+Sep 04, 2017 4:00:18 PM com.cramer.core.web.MessageDisplayFilter hasCookie
+INFO: Found instance cookie
+Sep 04, 2017 4:00:18 PM com.cramer.core.instancelocator.CramerInstanceLocatorImpl getContainerLocation
+INFO: CramerInstanceLocatorImpl:getContainerLocation(): location for app BootServices for tier com.cramer.instancelocatorlocator.web for instance com.cramer.core.instancelocator.CramerInstanceLocatorImpl$CramerInstance@42feda6a is https://usm-sqi.eomsys.cloud.corp.telstra.com/CramerOSS/
+Sep 04, 2017 4:00:18 PM com.cramer.core.sso.SSOHelper getASMTicketFromCookie
+INFO: Found ASM Cookie
+Sep 04, 2017 4:00:18 PM com.cramer.core.sso.ApplicationFilter checkForCSRFAttack
+INFO: ApplicatioFilter: CSRF attack validation is not required...true
+Sep 04, 2017 4:00:18 PM com.cramer.core.sso.SSOHelper getASMTicketFromCookie
+INFO: Found ASM Cookie
+Sep 04, 2017 4:00:18 PM com.cramer.core.sso.ApplicationFilter checkForCSRFAttack
+INFO: ApplicatioFilter: CSRF attack validation is not required...true
+Sep 04, 2017 4:00:18 PM com.cramer.core.sso.SSOHelper getASMTicketFromCookie
+INFO: Found ASM Cookie
+Sep 04, 2017 4:00:18 PM com.cramer.core.sso.ApplicationFilter checkForCSRFAttack
+INFO: ApplicatioFilter: CSRF attack validation is not required...true
+Sep 04, 2017 4:00:18 PM com.cramer.core.sso.SSOHelper getASMTicketFromCookie
+INFO: Found ASM Cookie
+Sep 04, 2017 4:00:18 PM com.cramer.core.sso.ApplicationFilter checkForCSRFAttack
+INFO: ApplicatioFilter: CSRF attack validation is not required...true
+Sep 04, 2017 4:00:18 PM com.cramer.core.sso.SSOHelper getASMTicketFromCookie
+INFO: Found ASM Cookie
+Sep 04, 2017 4:00:18 PM com.cramer.core.sso.ApplicationFilter checkForCSRFAttack
+INFO: ApplicatioFilter: CSRF attack validation is not required...true
+Sep 04, 2017 4:00:18 PM com.cramer.core.web.MessageDisplayFilter hasCookie
+INFO: Found instance cookie
+Sep 04, 2017 4:00:18 PM com.cramer.core.instancelocator.CramerInstanceLocatorImpl getContainerLocation
+INFO: CramerInstanceLocatorImpl:getContainerLocation(): location for app BootServices for tier com.cramer.instancelocatorlocator.web for instance com.cramer.core.instancelocator.CramerInstanceLocatorImpl$CramerInstance@42feda6a is https://usm-sqi.eomsys.cloud.corp.telstra.com/CramerOSS/
+Sep 04, 2017 4:00:18 PM com.cramer.core.sso.SSOHelper getASMTicketFromCookie
+INFO: Found ASM Cookie
+Sep 04, 2017 4:00:18 PM com.cramer.core.sso.ApplicationFilter checkForCSRFAttack
+INFO: ApplicatioFilter: CSRF attack validation is not required...true
+Sep 04, 2017 4:00:18 PM com.cramer.core.sso.SSOHelper getASMTicketFromCookie
+INFO: Found ASM Cookie
+Sep 04, 2017 4:00:18 PM com.cramer.core.sso.ApplicationFilter checkForCSRFAttack
+INFO: ApplicatioFilter: CSRF attack validation is not required...true
+Sep 04, 2017 4:00:18 PM com.cramer.core.sso.SSOHelper getASMTicketFromCookie
+INFO: Found ASM Cookie
+Sep 04, 2017 4:00:18 PM com.cramer.core.sso.ApplicationFilter checkForCSRFAttack
+INFO: ApplicatioFilter: CSRF attack validation is not required...true
+Sep 04, 2017 4:00:18 PM com.cramer.core.sso.SSOHelper getASMTicketFromCookie
+INFO: Found ASM Cookie
+Sep 04, 2017 4:00:18 PM com.cramer.core.sso.ApplicationFilter checkForCSRFAttack
+INFO: ApplicatioFilter: CSRF attack validation is not required...true
+Sep 04, 2017 4:00:18 PM com.cramer.core.web.MessageDisplayFilter hasCookie
+INFO: Found instance cookie
+Sep 04, 2017 4:00:18 PM com.cramer.core.instancelocator.CramerInstanceLocatorImpl getContainerLocation
+INFO: CramerInstanceLocatorImpl:getContainerLocation(): location for app BootServices for tier com.cramer.instancelocatorlocator.web for instance com.cramer.core.instancelocator.CramerInstanceLocatorImpl$CramerInstance@42feda6a is https://usm-sqi.eomsys.cloud.corp.telstra.com/CramerOSS/
+Sep 04, 2017 4:00:18 PM com.cramer.core.sso.SSOHelper getASMTicketFromCookie
+INFO: Found ASM Cookie
+Sep 04, 2017 4:00:18 PM com.cramer.core.sso.ApplicationFilter checkForCSRFAttack
+INFO: ApplicatioFilter: CSRF attack validation is not required...true
+Sep 04, 2017 4:00:18 PM com.cramer.core.sso.SSOHelper getASMTicketFromCookie
+INFO: Found ASM Cookie
+Sep 04, 2017 4:00:18 PM com.cramer.core.sso.ApplicationFilter checkForCSRFAttack
+INFO: ApplicatioFilter: CSRF attack validation is not required...true
+Sep 04, 2017 4:00:18 PM com.cramer.core.sso.SSOHelper getASMTicketFromCookie
+INFO: Found ASM Cookie
+Sep 04, 2017 4:00:18 PM com.cramer.core.sso.ApplicationFilter checkForCSRFAttack
+INFO: ApplicatioFilter: CSRF attack validation is not required...true
+Sep 04, 2017 4:00:18 PM com.cramer.core.sso.SSOHelper getASMTicketFromCookie
+INFO: Found ASM Cookie
+Sep 04, 2017 4:00:18 PM com.cramer.core.sso.ApplicationFilter checkForCSRFAttack
+INFO: ApplicatioFilter: CSRF attack validation is not required...true
+Sep 04, 2017 4:00:18 PM com.cramer.core.sso.SSOHelper getASMTicketFromCookie
+INFO: Found ASM Cookie
+Sep 04, 2017 4:00:18 PM com.cramer.core.sso.ApplicationFilter checkForCSRFAttack
+INFO: ApplicatioFilter: CSRF attack validation is not required...true
+Sep 04, 2017 4:00:18 PM com.cramer.core.sso.SSOHelper getASMTicketFromCookie
+INFO: ApplicatioFilter: CSRF token value from Request object: 7e94d53f1b7ab7b6c66230f2543a1be2
+Sep 04, 2017 4:00:24 PM com.cramer.core.sso.ApplicationFilter checkForTokenMismatch
+INFO: ApplicatioFilter: Token is matching, serving valid request...
+Sep 04, 2017 4:00:24 PM com.cramer.core.sso.ApplicationFilter doFilter
+INFO: Setting applicationName = BootServices
+Sep 04, 2017 4:00:24 PM com.cramer.core.framework.serviceimpl.BootServiceImpl bootstrap
+INFO: interfaceName: com.cramer.core.framework=FrameworkServices
+Sep 04, 2017 4:00:24 PM com.cramer.core.framework.serviceimpl.BootServiceImpl bootstrap
+INFO: interfaceName: com.cramer.rm.wizard=WizardServices
+Sep 04, 2017 4:00:24 PM com.cramer.core.framework.serviceimpl.BootServiceImpl bootstrap
+INFO: interfaceName: com.cramer.te.wizard=TaskEngineServices
+Sep 04, 2017 4:00:24 PM com.cramer.core.framework.serviceimpl.BootServiceImpl bootstrap
+INFO: interfaceName: com.cramer.rf.wizard=RouteFinderServices
+Sep 04, 2017 4:00:24 PM com.cramer.core.framework.serviceimpl.BootServiceImpl bootstrap
+INFO: interfaceName: com.cramer.de.wizard=DeliveryEngineServices
+Sep 04, 2017 4:00:24 PM com.cramer.core.framework.serviceimpl.BootServiceImpl bootstrap
+INFO: interfaceName: com.cramer.se.wizard=SyncEngineServices
+Sep 04, 2017 4:00:24 PM com.cramer.core.framework.serviceimpl.BootServiceImpl bootstrap
+INFO: interfaceName: com.cramer.ae.wizard=ActivationEngineServices
+Sep 04, 2017 4:00:24 PM com.cramer.core.framework.serviceimpl.BootServiceImpl bootstrap
+INFO: interfaceName: com.cramer.sc.wizard=ServiceCatalogServices
+Sep 04, 2017 4:00:24 PM com.cramer.core.framework.serviceimpl.BootServiceImpl bootstrap
+INFO: interfaceName: com.cramer.rp.wizard=ResourcePlannerServices
+Sep 04, 2017 4:00:24 PM com.cramer.core.framework.serviceimpl.BootServiceImpl bootstrap
+INFO: interfaceName: com.cramer.sp.wizard=SitePlannerServices
+Sep 04, 2017 4:00:24 PM com.cramer.core.framework.serviceimpl.BootServiceImpl bootstrap
+INFO: interfaceName: com.cramer.usm.wizard=USM-WizardServices
+Sep 04, 2017 4:00:24 PM com.cramer.core.framework.serviceimpl.BootServiceImpl bootstrap
+INFO: interfaceName: com.amdocs.oss.usm.framework=USMFrameworkServices
+Sep 04, 2017 4:00:24 PM com.cramer.core.framework.serviceimpl.BootServiceImpl bootstrap
+INFO: interfaceName: com.amdocs.oss.dqm.framework=DQMFrameworkServices
+Sep 04, 2017 4:00:24 PM com.cramer.core.framework.serviceimpl.BootServiceImpl bootstrap
+INFO: interfaceName: com.cramer.core.advancedreports=AdvancedReportsServices
+Sep 04, 2017 4:00:24 PM com.cramer.core.instancelocator.CramerInstanceLocatorImpl getApplicationLocations
+WARNING: No location cached for instance=USM1AT tier=com.cramer.instancelocatorlocator.web app=rmwebreports
+<Sep 4, 2017 4:00:24 PM AEST> <Warning> <com.cramer.core.instancelocator.CramerInstanceLocatorImpl> <BEA-000000> <No location cached for instance=USM1AT tier=com.cramer.instancelocatorlocator.web app=rmwebreports>
+Sep 04, 2017 4:00:24 PM com.cramer.core.instancelocator.CramerInstanceLocatorImpl getApplicationLocations
+WARNING: No location cached for instance=USM1AT tier=com.cramer.instancelocatorlocator.web app=RMViews
+<Sep 4, 2017 4:00:24 PM AEST> <Warning> <com.cramer.core.instancelocator.CramerInstanceLocatorImpl> <BEA-000000> <No location cached for instance=USM1AT tier=com.cramer.instancelocatorlocator.web app=RMViews>
+Sep 04, 2017 4:00:24 PM com.cramer.core.framework.serviceimpl.BootServiceImpl bootstrap
+INFO: Checking for server clustering status
+Sep 04, 2017 4:00:24 PM com.cramer.core.framework.serviceimpl.BootServiceImpl bootstrap
+INFO: Server is Clustered: false
+Sep 04, 2017 4:00:24 PM com.cramer.core.sso.SSOHelper getASMTicketFromCookie
+INFO: Found ASM Cookie
+Sep 04, 2017 4:00:24 PM com.cramer.core.sso.ApplicationFilter initialiseASMSession
+INFO: Cookie value did not match value stored on http session. Re-creating the session...
+Sep 04, 2017 4:00:24 PM com.cramer.core.axis.CramerStatelessBeanProvider$ServiceInvocationHandler invoke
+INFO: com.cramer.core.axis.CramerStatelessBeanProvider$ServiceInvocationHandler@35807daa unbound from session
+Sep 04, 2017 4:00:24 PM com.cramer.core.axis.CramerStatelessBeanProvider$ServiceInvocationHandler invoke
+INFO: Cookie value did not match value stored on http session. Re-creating the session...
+Sep 04, 2017 4:00:24 PM com.cramer.core.axis.CramerStatelessBeanProvider$ServiceInvocationHandler invoke
+INFO: com.cramer.core.axis.CramerStatelessBeanProvider$ServiceInvocationHandler@35807daa unbound from session
+Sep 04, 2017 4:00:24 PM com.cramer.core.axis.CramerStatelessBeanProvider$ServiceInvocationHandler invoke
+INFO: Removing stub weblogic.rmi.internal.activation.ActivatableCollocatedRef - hostID: '-5966353456245598286S:lxapp6300.dc.corp.telstra.com:USM:CramerServer', oid: '836', channel: 'null' aid 2180813998671265793 on session termination
+Sep 04, 2017 4:00:24 PM com.cramer.core.axis.CramerStatelessBeanProvider$ServiceInvocationHandler invoke
+INFO: com.cramer.core.axis.CramerStatelessBeanProvider$ServiceInvocationHandler@373152a0 unbound from session
+Sep 04, 2017 4:00:24 PM com.cramer.core.axis.CramerStatelessBeanProvider$ServiceInvocationHandler invoke
+INFO: Removing stub weblogic.rmi.internal.activation.ActivatableCollocatedRef - hostID: '-5966353456245598286S:lxapp6300.dc.corp.telstra.com:USM:CramerServer', oid: '834', channel: 'null' aid 1275421621225521155 on session termination
+Sep 04, 2017 4:00:24 PM com.cramer.core.axis.CramerStatelessBeanProvider$ServiceInvocationHandler invoke
+INFO: com.cramer.core.axis.CramerStatelessBeanProvider$ServiceInvocationHandler@54de16b8 unbound from session
+Sep 04, 2017 4:00:24 PM com.cramer.core.axis.CramerStatelessBeanProvider$ServiceInvocationHandler invoke
+INFO: Removing stub weblogic.rmi.internal.activation.ActivatableCollocatedRef - hostID: '-5966353456245598286S:lxapp6300.dc.corp.telstra.com:USM:CramerServer', oid: '835', channel: 'null' aid 9104528337564336129 on session termination
+Sep 04, 2017 4:00:24 PM com.cramer.core.axis.CramerStatelessBeanProvider$ServiceInvocationHandler invoke
+INFO: com.cramer.core.axis.CramerStatelessBeanProvider$ServiceInvocationHandler@693bb682 unbound from session
+Sep 04, 2017 4:00:24 PM com.cramer.core.axis.CramerStatelessBeanProvider$ServiceInvocationHandler invoke
+INFO: Removing stub weblogic.rmi.internal.activation.ActivatableCollocatedRef - hostID: '-5966353456245598286S:lxapp6300.dc.corp.telstra.com:USM:CramerServer', oid: '838', channel: 'null' aid 1001585239555833857 on session termination
+Sep 04, 2017 4:00:24 PM com.cramer.core.axis.CramerStatelessBeanProvider$ServiceInvocationHandler invoke
+INFO: com.cramer.core.axis.CramerStatelessBeanProvider$ServiceInvocationHandler@cff167a unbound from session
+Sep 04, 2017 4:00:24 PM com.cramer.core.axis.CramerStatelessBeanProvider$ServiceInvocationHandler invoke
+INFO: Removing stub weblogic.rmi.internal.activation.ActivatableCollocatedRef - hostID: '-5966353456245598286S:lxapp6300.dc.corp.telstra.com:USM:CramerServer', oid: '839', channel: 'null' aid 2208243330565799937 on session termination
+Sep 04, 2017 4:00:24 PM com.cramer.core.sso.ApplicationFilter initialiseASMSession
+INFO: Session is now NEW
+Sep 04, 2017 4:00:24 PM com.cramer.core.sso.ApplicationFilter initialiseASMSession
+INFO: Setting user credential .
+Sep 04, 2017 4:00:24 PM com.cramer.core.sso.ApplicationFilter checkForCSRFAttack
+INFO: ApplicatioFilter: CSRF token value from Session object: 7e94d53f1b7ab7b6c66230f2543a1be2
+Sep 04, 2017 4:00:24 PM com.cramer.core.sso.ApplicationFilter checkForCSRFAttack
+INFO: ApplicatioFilter: CSRF token value from Request object: 7e94d53f1b7ab7b6c66230f2543a1be2
+Sep 04, 2017 4:00:24 PM com.cramer.core.sso.ApplicationFilter checkForTokenMismatch
+INFO: ApplicatioFilter: Token is matching, serving valid request...
+Sep 04, 2017 4:00:24 PM com.cramer.core.sso.ApplicationFilter doFilter
+INFO: Setting applicationName = FrameworkServices
+Sep 04, 2017 4:00:24 PM com.cramer.core.common.WebAppRMIContextManager createInitialContext
+INFO: Created context for provider iiop://lxapp6300.dc.corp.telstra.com:8002 in 0 ms
+Sep 04, 2017 4:00:25 PM com.cramer.core.sso.SSOHelper getASMTicketFromCookie
+INFO: Found ASM Cookie
+Sep 04, 2017 4:00:25 PM com.cramer.core.sso.ApplicationFilter checkForCSRFAttack
+INFO: ApplicatioFilter: CSRF token value from Session object: 7e94d53f1b7ab7b6c66230f2543a1be2
+Sep 04, 2017 4:00:25 PM com.cramer.core.sso.ApplicationFilter checkForCSRFAttack
+INFO: ApplicatioFilter: CSRF token value from Request object: 7e94d53f1b7ab7b6c66230f2543a1be2
+Sep 04, 2017 4:00:25 PM com.cramer.core.sso.ApplicationFilter checkForTokenMismatch
+INFO: ApplicatioFilter: Token is matching, serving valid request...
+Sep 04, 2017 4:00:25 PM com.cramer.core.sso.SSOHelper getASMTicketFromCookie
+INFO: Found ASM Cookie
+Sep 04, 2017 4:00:25 PM com.cramer.core.sso.ApplicationFilter checkForCSRFAttack
+INFO: ApplicatioFilter: CSRF token value from Session object: 7e94d53f1b7ab7b6c66230f2543a1be2
+Sep 04, 2017 4:00:25 PM com.cramer.core.sso.ApplicationFilter checkForCSRFAttack
+INFO: ApplicatioFilter: CSRF token value from Request object: 7e94d53f1b7ab7b6c66230f2543a1be2
+Sep 04, 2017 4:00:25 PM com.cramer.core.sso.ApplicationFilter checkForTokenMismatch
+INFO: ApplicatioFilter: Token is matching, serving valid request...
+Sep 04, 2017 4:00:25 PM com.cramer.core.server.CramerConnectionManagerImpl createBaseConnection
+INFO: Using session properties to get connection.:={com.cramer.db_name=USM1AT, tk=, java.naming.security.principal=cn=d865881,cn=Users,dc=USM1AT, com.cramer.asm_ticket=Tksmau3yMXXeGH1vGbgjzept5}KDf0a3ZoSnz8h0}
+Sep 04, 2017 4:00:26 PM com.cramer.core.session.impl.SessionObjectImpl getConfiguredConnection
+INFO: Times: Ldap: 81 configuresession:228 total: 309
+Sep 04, 2017 4:00:26 PM com.cramer.core.framework.serviceimpl.BundleServiceHelper createBundle
+INFO: select b.bundleid from bundle b, locale l where b.name = ? and l.localeid = localeID
+Sep 04, 2017 4:00:26 PM com.cramer.core.framework.serviceimpl.BundleServiceHelper getProperties
+INFO: {? = call pkgsession.findlocaleids(?, ?, ?)}
+Sep 04, 2017 4:00:26 PM com.cramer.core.framework.serviceimpl.BundleServiceHelper getProperties
+INFO: In parameter for query, language : en, country : , variant :
+Sep 04, 2017 4:00:26 PM com.cramer.core.framework.serviceimpl.BundleServiceHelper getProperties
+INFO: localeID1 : 1, localeID2 : 0, localeID3 : 0localeID4 : 0
+Sep 04, 2017 4:00:26 PM com.cramer.core.framework.serviceimpl.BundleServiceHelper getParents
+INFO: select b.name from bundlebundle bb2child,bundle b where b.bundleid=bb2parent and BB2CHILD = ?
+Sep 04, 2017 4:00:26 PM com.cramer.core.framework.serviceimpl.BundleServiceHelper getParents
+INFO: bundleID : 1026
+Sep 04, 2017 4:00:26 PM com.cramer.core.sso.SSOHelper getASMTicketFromCookie
+INFO: Found ASM Cookie
+Sep 04, 2017 4:00:26 PM com.cramer.core.sso.ApplicationFilter checkForCSRFAttack
+INFO: ApplicatioFilter: CSRF token value from Session object: 7e94d53f1b7ab7b6c66230f2543a1be2
+Sep 04, 2017 4:00:26 PM com.cramer.core.sso.ApplicationFilter checkForCSRFAttack
+INFO: ApplicatioFilter: CSRF token value from Request object: 7e94d53f1b7ab7b6c66230f2543a1be2
+Sep 04, 2017 4:00:26 PM com.cramer.core.sso.ApplicationFilter checkForTokenMismatch
+INFO: ApplicatioFilter: Token is matching, serving valid request...
+Sep 04, 2017 4:00:26 PM com.cramer.core.server.CramerConnectionManagerImpl createBaseConnection
+INFO: Using session properties to get connection.:={com.cramer.db_name=USM1AT, tk=, java.naming.security.principal=cn=d865881,cn=Users,dc=USM1AT, com.cramer.asm_ticket=Tksmau3yMXXeGH1vGbgjzept5}KDf0a3ZoSnz8h0}
+Sep 04, 2017 4:00:26 PM com.cramer.core.framework.serviceimpl.BundleServiceHelper createBundle
+INFO: select b.bundleid from bundle b, locale l where b.name = ? and l.localeid = localeID
+Sep 04, 2017 4:00:26 PM com.cramer.core.framework.serviceimpl.BundleServiceHelper getProperties
+INFO: {? = call pkgsession.findlocaleids(?, ?, ?)}
+Sep 04, 2017 4:00:26 PM com.cramer.core.framework.serviceimpl.BundleServiceHelper getProperties
+INFO: In parameter for query, language : en, country : , variant :
+Sep 04, 2017 4:00:26 PM com.cramer.core.framework.serviceimpl.BundleServiceHelper getProperties
+INFO: localeID1 : 1, localeID2 : 0, localeID3 : 0localeID4 : 0
+Sep 04, 2017 4:00:26 PM com.cramer.core.framework.serviceimpl.BundleServiceHelper getParents
+INFO: select b.name from bundlebundle bb2child,bundle b where b.bundleid=bb2parent and BB2CHILD = ?
+Sep 04, 2017 4:00:26 PM com.cramer.core.framework.serviceimpl.BundleServiceHelper getParents
+INFO: bundleID : 1027
+Sep 04, 2017 4:00:27 PM com.cramer.core.sso.SSOHelper getASMTicketFromCookie
+INFO: Found ASM Cookie
+Sep 04, 2017 4:00:27 PM com.cramer.core.sso.ApplicationFilter checkForCSRFAttack
+INFO: ApplicatioFilter: CSRF token value from Session object: 7e94d53f1b7ab7b6c66230f2543a1be2
+Sep 04, 2017 4:00:27 PM com.cramer.core.sso.ApplicationFilter checkForCSRFAttack
+INFO: ApplicatioFilter: CSRF token value from Request object: 7e94d53f1b7ab7b6c66230f2543a1be2
+Sep 04, 2017 4:00:27 PM com.cramer.core.sso.ApplicationFilter checkForTokenMismatch
+INFO: ApplicatioFilter: Token is matching, serving valid request...
+Sep 04, 2017 4:00:27 PM com.cramer.core.server.CramerConnectionManagerImpl createBaseConnection
+INFO: Using session properties to get connection.:={com.cramer.db_name=USM1AT, tk=, java.naming.security.principal=cn=d865881,cn=Users,dc=USM1AT, com.cramer.asm_ticket=Tksmau3yMXXeGH1vGbgjzept5}KDf0a3ZoSnz8h0}
+Sep 04, 2017 4:00:27 PM com.cramer.core.framework.serviceimpl.BundleServiceHelper createBundle
+INFO: select b.bundleid from bundle b, locale l where b.name = ? and l.localeid = localeID
+Sep 04, 2017 4:00:27 PM com.cramer.core.framework.serviceimpl.BundleServiceHelper getProperties
+INFO: {? = call pkgsession.findlocaleids(?, ?, ?)}
+Sep 04, 2017 4:00:27 PM com.cramer.core.framework.serviceimpl.BundleServiceHelper getProperties
+INFO: In parameter for query, language : en, country : , variant :
+Sep 04, 2017 4:00:27 PM com.cramer.core.framework.serviceimpl.BundleServiceHelper getProperties
+INFO: localeID1 : 1, localeID2 : 0, localeID3 : 0localeID4 : 0
+Sep 04, 2017 4:00:27 PM com.cramer.core.framework.serviceimpl.BundleServiceHelper getParents
+INFO: select b.name from bundlebundle bb2child,bundle b where b.bundleid=bb2parent and BB2CHILD = ?
+Sep 04, 2017 4:00:27 PM com.cramer.core.framework.serviceimpl.BundleServiceHelper getParents
+INFO: bundleID : 1029
+Sep 04, 2017 4:00:27 PM com.cramer.core.sso.SSOHelper getASMTicketFromCookie
+INFO: ApplicatioFilter: Token is matching, serving valid request...
+Sep 04, 2017 4:00:27 PM com.cramer.core.server.CramerConnectionManagerImpl createBaseConnection
+INFO: Using session properties to get connection.:={com.cramer.db_name=USM1AT, tk=, java.naming.security.principal=cn=d865881,cn=Users,dc=USM1AT, com.cramer.asm_ticket=Tksmau3yMXXeGH1vGbgjzept5}KDf0a3ZoSnz8h0}
+Sep 04, 2017 4:00:27 PM com.cramer.core.sso.SSOHelper getASMTicketFromCookie
+INFO: Found ASM Cookie
+Sep 04, 2017 4:00:27 PM com.cramer.core.sso.ApplicationFilter checkForCSRFAttack
+INFO: ApplicatioFilter: CSRF token value from Session object: 7e94d53f1b7ab7b6c66230f2543a1be2
+Sep 04, 2017 4:00:27 PM com.cramer.core.sso.ApplicationFilter checkForCSRFAttack
+INFO: ApplicatioFilter: CSRF token value from Request object: 7e94d53f1b7ab7b6c66230f2543a1be2
+Sep 04, 2017 4:00:27 PM com.cramer.core.sso.ApplicationFilter checkForTokenMismatch
+INFO: ApplicatioFilter: Token is matching, serving valid request...
+Sep 04, 2017 4:00:27 PM com.cramer.core.server.CramerConnectionManagerImpl createBaseConnection
+INFO: Using session properties to get connection.:={com.cramer.db_name=USM1AT, tk=, java.naming.security.principal=cn=d865881,cn=Users,dc=USM1AT, com.cramer.asm_ticket=Tksmau3yMXXeGH1vGbgjzept5}KDf0a3ZoSnz8h0}
+Sep 04, 2017 4:00:28 PM com.cramer.core.sso.SSOHelper getASMTicketFromCookie
+INFO: Found ASM Cookie
+Sep 04, 2017 4:00:28 PM com.cramer.core.sso.ApplicationFilter checkForCSRFAttack
+INFO: ApplicatioFilter: CSRF token value from Session object: 7e94d53f1b7ab7b6c66230f2543a1be2
+Sep 04, 2017 4:00:28 PM com.cramer.core.sso.ApplicationFilter checkForCSRFAttack
+INFO: ApplicatioFilter: CSRF token value from Request object: 7e94d53f1b7ab7b6c66230f2543a1be2
+Sep 04, 2017 4:00:28 PM com.cramer.core.sso.ApplicationFilter checkForTokenMismatch
+INFO: ApplicatioFilter: Token is matching, serving valid request...
+Sep 04, 2017 4:00:28 PM com.cramer.core.server.CramerConnectionManagerImpl createBaseConnection
+INFO: Using session properties to get connection.:={com.cramer.db_name=USM1AT, tk=, java.naming.security.principal=cn=d865881,cn=Users,dc=USM1AT, com.cramer.asm_ticket=Tksmau3yMXXeGH1vGbgjzept5}KDf0a3ZoSnz8h0}
+Sep 04, 2017 4:00:28 PM com.cramer.core.sso.SSOHelper getASMTicketFromCookie
+INFO: Found ASM Cookie
+Sep 04, 2017 4:00:28 PM com.cramer.core.sso.ApplicationFilter checkForCSRFAttack
+INFO: ApplicatioFilter: CSRF token value from Session object: 7e94d53f1b7ab7b6c66230f2543a1be2
+Sep 04, 2017 4:00:28 PM com.cramer.core.sso.ApplicationFilter checkForCSRFAttack
+INFO: ApplicatioFilter: CSRF token value from Request object: 7e94d53f1b7ab7b6c66230f2543a1be2
+Sep 04, 2017 4:00:28 PM com.cramer.core.sso.ApplicationFilter checkForTokenMismatch
+INFO: ApplicatioFilter: Token is matching, serving valid request...
+Sep 04, 2017 4:00:28 PM com.cramer.core.server.CramerConnectionManagerImpl createBaseConnection
+INFO: Using session properties to get connection.:={com.cramer.db_name=USM1AT, tk=, java.naming.security.principal=cn=d865881,cn=Users,dc=USM1AT, com.cramer.asm_ticket=Tksmau3yMXXeGH1vGbgjzept5}KDf0a3ZoSnz8h0}
+Sep 04, 2017 4:00:28 PM com.cramer.core.framework.serviceimpl.ActionDataAccessor getActionMap
+INFO:  SQL :  select dopi2dimobject classid, dopi2doset dosetid, dopatternitemid, (select count(*) from   dopatternitemtype   where  dpit2dopatternitem = dopatternitemid and    rownum=1) hastypes  from   dopatternitem order by dopi2dimobject
+Sep 04, 2017 4:00:28 PM com.cramer.core.framework.serviceimpl.ActionDataAccessor getActionMap
+INFO: Data  population in 'classID2Patterns' is complete: entries = 61
+Sep 04, 2017 4:00:28 PM com.cramer.core.framework.serviceimpl.ActionDataAccessor getActionMap
+INFO:  SQL :  select actionkey, action.name, dispatcher,  decode(action2wizardpackage, null, dispatcherfunction, actionkey),   (select 1-count(*) from actionoperation where  acop2action = actionid and    acop2operation = 1 and    acop2doset is null  and    rownum = 1) objectdependent from   action, actiontype where  action2actiontype = actiontypeid
+Sep 04, 2017 4:00:28 PM com.cramer.core.framework.serviceimpl.ActionDataAccessor getActionMap
+INFO: Data population in 'actionKey2ActionData' is complete: entries = 247
+Sep 04, 2017 4:00:28 PM com.cramer.core.framework.serviceimpl.ActionDataAccessor getActionMap
+INFO:  SQL :  select acop2doset dosetid, actionoperationid, actionkey, nvl(o.actionparam, a.actionparam) actionparam,  calloutparams from   actionoperation o, action a where  acop2action = actionid  and    acop2operation = 1 order by acop2doset
+Sep 04, 2017 4:00:28 PM com.cramer.core.framework.serviceimpl.ActionDataAccessor getActionMap
+INFO: Population of 'actionOpID2ActionOp' complete: entries = 623
+Sep 04, 2017 4:00:28 PM com.cramer.core.framework.serviceimpl.ActionDataAccessor getActionMap
+INFO: Population of 'objectSetID2ActionOpIDs' complete: entries = 56
+Sep 04, 2017 4:00:34 PM com.cramer.core.sso.SSOHelper getASMTicketFromCookie
+INFO: Found ASM Cookie
+Sep 04, 2017 4:00:34 PM com.cramer.core.sso.ApplicationFilter checkForCSRFAttack
+INFO: ApplicatioFilter: CSRF token value from Session object: 7e94d53f1b7ab7b6c66230f2543a1be2
+Sep 04, 2017 4:00:34 PM com.cramer.core.sso.ApplicationFilter checkForCSRFAttack
+INFO: ApplicatioFilter: CSRF token value from Request object: 7e94d53f1b7ab7b6c66230f2543a1be2
+Sep 04, 2017 4:00:34 PM com.cramer.core.sso.ApplicationFilter checkForTokenMismatch
+INFO: ApplicatioFilter: Token is matching, serving valid request...
+Sep 04, 2017 4:00:34 PM com.cramer.core.server.CramerConnectionManagerImpl createBaseConnection
+INFO: Using session properties to get connection.:={com.cramer.db_name=USM1AT, tk=, java.naming.security.principal=cn=d865881,cn=Users,dc=USM1AT, com.cramer.asm_ticket=Tksmau3yMXXeGH1vGbgjzept5}KDf0a3ZoSnz8h0}
+INFO: ApplicatioFilter: CSRF token value from Request object: 7e94d53f1b7ab7b6c66230f2543a1be2
+Sep 04, 2017 4:00:34 PM com.cramer.core.sso.ApplicationFilter checkForTokenMismatch
+INFO: ApplicatioFilter: Token is matching, serving valid request...
+Sep 04, 2017 4:00:34 PM com.cramer.core.server.CramerConnectionManagerImpl createBaseConnection
+INFO: Using session properties to get connection.:={com.cramer.db_name=USM1AT, tk=, java.naming.security.principal=cn=d865881,cn=Users,dc=USM1AT, com.cramer.asm_ticket=Tksmau3yMXXeGH1vGbgjzept5}KDf0a3ZoSnz8h0}
+Sep 04, 2017 4:00:34 PM com.cramer.core.framework.serviceimpl.ActionDataAccessor getDispatcherNames
+INFO:  SQL :  SELECT DISPATCHER, NAME FROM ACTIONTYPE  WHERE DISPATCHER IS NOT NULL
+Sep 04, 2017 4:00:35 PM com.cramer.core.sso.SSOHelper getASMTicketFromCookie
+INFO: Found ASM Cookie
+Sep 04, 2017 4:00:35 PM com.cramer.core.sso.ApplicationFilter checkForCSRFAttack
+INFO: ApplicatioFilter: CSRF token value from Session object: 7e94d53f1b7ab7b6c66230f2543a1be2
+Sep 04, 2017 4:00:35 PM com.cramer.core.sso.ApplicationFilter checkForCSRFAttack
+INFO: ApplicatioFilter: CSRF token value from Request object: 7e94d53f1b7ab7b6c66230f2543a1be2
+Sep 04, 2017 4:00:35 PM com.cramer.core.sso.ApplicationFilter checkForTokenMismatch
+INFO: ApplicatioFilter: Token is matching, serving valid request...
+Sep 04, 2017 4:00:35 PM com.cramer.core.server.CramerConnectionManagerImpl createBaseConnection
+INFO: Using session properties to get connection.:={com.cramer.db_name=USM1AT, tk=, java.naming.security.principal=cn=d865881,cn=Users,dc=USM1AT, com.cramer.asm_ticket=Tksmau3yMXXeGH1vGbgjzept5}KDf0a3ZoSnz8h0}
+Sep 04, 2017 4:00:35 PM com.cramer.core.framework.serviceimpl.BundleServiceHelper createBundle
+INFO: select b.bundleid from bundle b, locale l where b.name = ? and l.localeid = localeID
+Sep 04, 2017 4:00:35 PM com.cramer.core.sso.SSOHelper getASMTicketFromCookie
+INFO: Found ASM Cookie
+Sep 04, 2017 4:00:35 PM com.cramer.core.sso.ApplicationFilter checkForCSRFAttack
+INFO: ApplicatioFilter: CSRF token value from Session object: 7e94d53f1b7ab7b6c66230f2543a1be2
+Sep 04, 2017 4:00:35 PM com.cramer.core.sso.ApplicationFilter checkForCSRFAttack
+INFO: ApplicatioFilter: CSRF token value from Request object: 7e94d53f1b7ab7b6c66230f2543a1be2
+Sep 04, 2017 4:00:35 PM com.cramer.core.sso.ApplicationFilter checkForTokenMismatch
+INFO: ApplicatioFilter: Token is matching, serving valid request...
+Sep 04, 2017 4:00:35 PM com.cramer.core.server.CramerConnectionManagerImpl createBaseConnection
+INFO: Using session properties to get connection.:={com.cramer.db_name=USM1AT, tk=, java.naming.security.principal=cn=d865881,cn=Users,dc=USM1AT, com.cramer.asm_ticket=Tksmau3yMXXeGH1vGbgjzept5}KDf0a3ZoSnz8h0}
+Sep 04, 2017 4:00:35 PM com.cramer.core.framework.serviceimpl.BundleServiceHelper createBundle
+INFO: select b.bundleid from bundle b, locale l where b.name = ? and l.localeid = localeID
+Sep 04, 2017 4:00:35 PM com.cramer.core.framework.serviceimpl.BundleServiceHelper getProperties
+INFO: {? = call pkgsession.findlocaleids(?, ?, ?)}
+Sep 04, 2017 4:00:35 PM com.cramer.core.framework.serviceimpl.BundleServiceHelper getProperties
+INFO: In parameter for query, language : en, country : , variant :
+Sep 04, 2017 4:00:35 PM com.cramer.core.framework.serviceimpl.BundleServiceHelper getProperties
+INFO: localeID1 : 1, localeID2 : 0, localeID3 : 0localeID4 : 0
+Sep 04, 2017 4:00:35 PM com.cramer.core.framework.serviceimpl.BundleServiceHelper getParents
+INFO: select b.name from bundlebundle bb2child,bundle b where b.bundleid=bb2parent and BB2CHILD = ?
+Sep 04, 2017 4:00:35 PM com.cramer.core.framework.serviceimpl.BundleServiceHelper getParents
+INFO: bundleID : 1031
+Sep 04, 2017 4:00:36 PM com.cramer.core.sso.SSOHelper getASMTicketFromCookie
+INFO: Found ASM Cookie
+Sep 04, 2017 4:00:36 PM com.cramer.core.sso.ApplicationFilter checkForCSRFAttack
+INFO: ApplicatioFilter: CSRF token value from Session object: 7e94d53f1b7ab7b6c66230f2543a1be2
+Sep 04, 2017 4:00:36 PM com.cramer.core.sso.ApplicationFilter checkForCSRFAttack
+INFO: ApplicatioFilter: CSRF token value from Request object: 7e94d53f1b7ab7b6c66230f2543a1be2
+Sep 04, 2017 4:00:36 PM com.cramer.core.sso.ApplicationFilter checkForTokenMismatch
+INFO: ApplicatioFilter: Token is matching, serving valid request...
+Sep 04, 2017 4:00:36 PM com.cramer.core.framework.serviceimpl.LicConfigManager readConfigFile
+INFO: Reading LIC config file from class loader
+Sep 04, 2017 4:00:36 PM com.cramer.core.sso.SSOHelper getASMTicketFromCookie
+INFO: Found ASM Cookie
+Sep 04, 2017 4:00:36 PM com.cramer.core.sso.ApplicationFilter checkForCSRFAttack
+INFO: ApplicatioFilter: CSRF token value from Session object: 7e94d53f1b7ab7b6c66230f2543a1be2
+Sep 04, 2017 4:00:36 PM com.cramer.core.sso.ApplicationFilter checkForCSRFAttack
+INFO: ApplicatioFilter: CSRF token value from Request object: 7e94d53f1b7ab7b6c66230f2543a1be2
+Sep 04, 2017 4:00:36 PM com.cramer.core.sso.ApplicationFilter checkForTokenMismatch
+INFO: ApplicatioFilter: Token is matching, serving valid request...
+Sep 04, 2017 4:00:36 PM com.cramer.core.framework.serviceimpl.LicConfigManager readConfigFile
+INFO: Reading LIC config file from class loader
+Sep 04, 2017 4:00:37 PM com.cramer.core.sso.SSOHelper getASMTicketFromCookie
+INFO: Returning non-local images as binary
+Sep 04, 2017 4:00:37 PM com.cramer.core.framework.serviceimpl.ImageServiceImpl getImages
+INFO: Behaviour : 2
+Sep 04, 2017 4:00:37 PM com.cramer.core.common.WebAppRMIContextManager createInitialContext
+INFO: Created context for provider iiop://lxapp6300.dc.corp.telstra.com:8002 in 0 ms
+Sep 04, 2017 4:00:37 PM com.cramer.core.server.CramerConnectionManagerImpl createBaseConnection
+INFO: Using session properties to get connection.:={com.cramer.db_name=USM1AT, tk=, java.naming.security.principal=cn=d865881,cn=Users,dc=USM1AT, com.cramer.asm_ticket=Tksmau3yMXXeGH1vGbgjzept5}KDf0a3ZoSnz8h0}
+Sep 04, 2017 4:00:37 PM com.cramer.core.framework.serviceimpl.ImageServiceDBHelperImpl getImageSet
+INFO: SELECT DISTINCT FILEURL, WEBAPP FROM BITMAP WHERE BEHAVIOUR IS NULL OR BEHAVIOUR <= ?
+Sep 04, 2017 4:00:37 PM com.cramer.core.framework.serviceimpl.ImageServiceDBHelperImpl getImageSet
+INFO: Input parameters : 2
+Sep 04, 2017 4:00:37 PM com.cramer.core.framework.serviceimpl.ImageServiceImpl getImages
+INFO: Server Images Set Size : 372
+Sep 04, 2017 4:00:37 PM com.cramer.core.framework.serviceimpl.ImageServiceImpl getImages
+INFO: Client Images Map Size : 320
+Sep 04, 2017 4:00:37 PM com.cramer.core.instancelocator.CramerInstanceLocatorImpl getContainerLocation
+INFO: CramerInstanceLocatorImpl:getContainerLocation(): location for app RMViews for tier com.cramer.instancelocatorlocator.web for instance com.cramer.core.instancelocator.CramerInstanceLocatorImpl$CramerInstance@16cd877c is https://usm-sqi.eomsys.cloud.corp.telstra.com/CramerOSS/
+Sep 04, 2017 4:00:37 PM com.cramer.core.framework.serviceimpl.ImageServiceImpl getURLImage
+WARNING: Image https://usm-sqi.eomsys.cloud.corp.telstra.com/CramerOSS/RMViews/resources/viewscommon/images/ViewTopTopology.png not found
+<Sep 4, 2017 4:00:37 PM AEST> <Warning> <com.cramer.core.framework.serviceimpl.ImageServiceImpl> <BEA-000000> <Image https://usm-sqi.eomsys.cloud.corp.telstra.com/CramerOSS/RMViews/resources/viewscommon/images/ViewTopTopology.png not found>
+Sep 04, 2017 4:00:37 PM com.cramer.core.instancelocator.CramerInstanceLocatorImpl getContainerLocation
+INFO: CramerInstanceLocatorImpl:getContainerLocation(): location for app RMViews for tier com.cramer.instancelocatorlocator.web for instance com.cramer.core.instancelocator.CramerInstanceLocatorImpl$CramerInstance@16cd877c is https://usm-sqi.eomsys.cloud.corp.telstra.com/CramerOSS/
+Sep 04, 2017 4:00:37 PM com.cramer.core.framework.serviceimpl.ImageServiceImpl getURLImage
+WARNING: Image https://usm-sqi.eomsys.cloud.corp.telstra.com/CramerOSS/RMViews/resources/viewscommon/images/browser_s_resolved.png not found
+<Sep 4, 2017 4:00:37 PM AEST> <Warning> <com.cramer.core.framework.serviceimpl.ImageServiceImpl> <BEA-000000> <Image https://usm-sqi.eomsys.cloud.corp.telstra.com/CramerOSS/RMViews/resources/viewscommon/images/browser_s_resolved.png not found>
+Sep 04, 2017 4:00:37 PM com.cramer.core.instancelocator.CramerInstanceLocatorImpl getContainerLocation
+INFO: CramerInstanceLocatorImpl:getContainerLocation(): location for app RMViews for tier com.cramer.instancelocatorlocator.web for instance com.cramer.core.instancelocator.CramerInstanceLocatorImpl$CramerInstance@16cd877c is https://usm-sqi.eomsys.cloud.corp.telstra.com/CramerOSS/
+Sep 04, 2017 4:00:37 PM com.cramer.core.framework.serviceimpl.ImageServiceImpl getURLImage
+WARNING: Image https://usm-sqi.eomsys.cloud.corp.telstra.com/CramerOSS/RMViews/resources/viewscommon/images/node.png not found
+<Sep 4, 2017 4:00:37 PM AEST> <Warning> <com.cramer.core.framework.serviceimpl.ImageServiceImpl> <BEA-000000> <Image https://usm-sqi.eomsys.cloud.corp.telstra.com/CramerOSS/RMViews/resources/viewscommon/images/node.png not found>
+Sep 04, 2017 4:00:37 PM com.cramer.core.instancelocator.CramerInstanceLocatorImpl getContainerLocation
+INFO: CramerInstanceLocatorImpl:getContainerLocation(): location for app RMViews for tier com.cramer.instancelocatorlocator.web for instance com.cramer.core.instancelocator.CramerInstanceLocatorImpl$CramerInstance@16cd877c is https://usm-sqi.eomsys.cloud.corp.telstra.com/CramerOSS/
+Sep 04, 2017 4:00:38 PM com.cramer.core.framework.serviceimpl.ImageServiceImpl getURLImage
+WARNING: Image https://usm-sqi.eomsys.cloud.corp.telstra.com/CramerOSS/RMViews/resources/viewscommon/images/graphics_warning.png not found
+<Sep 4, 2017 4:00:38 PM AEST> <Warning> <com.cramer.core.framework.serviceimpl.ImageServiceImpl> <BEA-000000> <Image https://usm-sqi.eomsys.cloud.corp.telstra.com/CramerOSS/RMViews/resources/viewscommon/images/graphics_warning.png not found>
+Sep 04, 2017 4:00:38 PM com.cramer.core.instancelocator.CramerInstanceLocatorImpl getContainerLocation
+INFO: CramerInstanceLocatorImpl:getContainerLocation(): location for app RMViews for tier com.cramer.instancelocatorlocator.web for instance com.cramer.core.instancelocator.CramerInstanceLocatorImpl$CramerInstance@16cd877c is https://usm-sqi.eomsys.cloud.corp.telstra.com/CramerOSS/
+Sep 04, 2017 4:00:38 PM com.cramer.core.framework.serviceimpl.ImageServiceImpl getURLImage
+WARNING: Image https://usm-sqi.eomsys.cloud.corp.telstra.com/CramerOSS/RMViews/resources/viewscommon/images/s_createdinplan.png not found
+<Sep 4, 2017 4:00:38 PM AEST> <Warning> <com.cramer.core.framework.serviceimpl.ImageServiceImpl> <BEA-000000> <Image https://usm-sqi.eomsys.cloud.corp.telstra.com/CramerOSS/RMViews/resources/viewscommon/images/s_createdinplan.png not found>
+Sep 04, 2017 4:00:38 PM com.cramer.core.instancelocator.CramerInstanceLocatorImpl getContainerLocation
+INFO: CramerInstanceLocatorImpl:getContainerLocation(): location for app rmwebreports for tier com.cramer.instancelocatorlocator.web for instance com.cramer.core.instancelocator.CramerInstanceLocatorImpl$CramerInstance@16cd877c is https://usm-sqi.eomsys.cloud.corp.telstra.com/CramerOSS/
+Sep 04, 2017 4:00:38 PM com.cramer.core.framework.serviceimpl.ImageServiceImpl getURLImage
+WARNING: Image https://usm-sqi.eomsys.cloud.corp.telstra.com/CramerOSS/rmwebreports/resources/webreports/capacity/images/rightArrow.png not found
+<Sep 4, 2017 4:00:38 PM AEST> <Warning> <com.cramer.core.framework.serviceimpl.ImageServiceImpl> <BEA-000000> <Image https://usm-sqi.eomsys.cloud.corp.telstra.com/CramerOSS/rmwebreports/resources/webreports/capacity/images/rightArrow.png not found>
+Sep 04, 2017 4:00:38 PM com.cramer.core.instancelocator.CramerInstanceLocatorImpl getContainerLocation
+INFO: CramerInstanceLocatorImpl:getContainerLocation(): location for app RMViews for tier com.cramer.instancelocatorlocator.web for instance com.cramer.core.instancelocator.CramerInstanceLocatorImpl$CramerInstance@16cd877c is https://usm-sqi.eomsys.cloud.corp.telstra.com/CramerOSS/
+Sep 04, 2017 4:00:38 PM com.cramer.core.framework.serviceimpl.ImageServiceImpl getURLImage
+Sep 04, 2017 4:00:38 PM com.cramer.core.framework.serviceimpl.ImageServiceImpl getURLImage
+WARNING: Image https://usm-sqi.eomsys.cloud.corp.telstra.com/CramerOSS/RMViews/resources/viewscommon/images/browser_s_wsdefparent.png not found
+<Sep 4, 2017 4:00:38 PM AEST> <Warning> <com.cramer.core.framework.serviceimpl.ImageServiceImpl> <BEA-000000> <Image https://usm-sqi.eomsys.cloud.corp.telstra.com/CramerOSS/RMViews/resources/viewscommon/images/browser_s_wsdefparent.png not found>
+Sep 04, 2017 4:00:38 PM com.cramer.core.instancelocator.CramerInstanceLocatorImpl getContainerLocation
+INFO: CramerInstanceLocatorImpl:getContainerLocation(): location for app RMViews for tier com.cramer.instancelocatorlocator.web for instance com.cramer.core.instancelocator.CramerInstanceLocatorImpl$CramerInstance@16cd877c is https://usm-sqi.eomsys.cloud.corp.telstra.com/CramerOSS/
+Sep 04, 2017 4:00:38 PM com.cramer.core.framework.serviceimpl.ImageServiceImpl getURLImage
+WARNING: Image https://usm-sqi.eomsys.cloud.corp.telstra.com/CramerOSS/RMViews/resources/viewscommon/images/s_deletedinops.png not found
+<Sep 4, 2017 4:00:38 PM AEST> <Warning> <com.cramer.core.framework.serviceimpl.ImageServiceImpl> <BEA-000000> <Image https://usm-sqi.eomsys.cloud.corp.telstra.com/CramerOSS/RMViews/resources/viewscommon/images/s_deletedinops.png not found>
+Sep 04, 2017 4:00:38 PM com.cramer.core.instancelocator.CramerInstanceLocatorImpl getContainerLocation
+INFO: CramerInstanceLocatorImpl:getContainerLocation(): location for app RMViews for tier com.cramer.instancelocatorlocator.web for instance com.cramer.core.instancelocator.CramerInstanceLocatorImpl$CramerInstance@16cd877c is https://usm-sqi.eomsys.cloud.corp.telstra.com/CramerOSS/
+Sep 04, 2017 4:00:38 PM com.cramer.core.framework.serviceimpl.ImageServiceImpl getURLImage
+WARNING: Image https://usm-sqi.eomsys.cloud.corp.telstra.com/CramerOSS/RMViews/resources/viewscommon/images/cloud3.png not found
+<Sep 4, 2017 4:00:38 PM AEST> <Warning> <com.cramer.core.framework.serviceimpl.ImageServiceImpl> <BEA-000000> <Image https://usm-sqi.eomsys.cloud.corp.telstra.com/CramerOSS/RMViews/resources/viewscommon/images/cloud3.png not found>
+Sep 04, 2017 4:00:38 PM com.cramer.core.instancelocator.CramerInstanceLocatorImpl getContainerLocation
+INFO: CramerInstanceLocatorImpl:getContainerLocation(): location for app RMViews for tier com.cramer.instancelocatorlocator.web for instance com.cramer.core.instancelocator.CramerInstanceLocatorImpl$CramerInstance@16cd877c is https://usm-sqi.eomsys.cloud.corp.telstra.com/CramerOSS/
+Sep 04, 2017 4:00:38 PM com.cramer.core.framework.serviceimpl.ImageServiceImpl getURLImage
+WARNING: Image https://usm-sqi.eomsys.cloud.corp.telstra.com/CramerOSS/RMViews/resources/viewscommon/images/browser_s_wsdefault.png not found
+<Sep 4, 2017 4:00:38 PM AEST> <Warning> <com.cramer.core.framework.serviceimpl.ImageServiceImpl> <BEA-000000> <Image https://usm-sqi.eomsys.cloud.corp.telstra.com/CramerOSS/RMViews/resources/viewscommon/images/browser_s_wsdefault.png not found>
+Sep 04, 2017 4:00:38 PM com.cramer.core.instancelocator.CramerInstanceLocatorImpl getContainerLocation
+INFO: CramerInstanceLocatorImpl:getContainerLocation(): location for app rmwebreports for tier com.cramer.instancelocatorlocator.web for instance com.cramer.core.instancelocator.CramerInstanceLocatorImpl$CramerInstance@16cd877c is https://usm-sqi.eomsys.cloud.corp.telstra.com/CramerOSS/
+Sep 04, 2017 4:00:38 PM com.cramer.core.framework.serviceimpl.ImageServiceImpl getURLImage
+WARNING: Image https://usm-sqi.eomsys.cloud.corp.telstra.com/CramerOSS/rmwebreports/resources/webreports/capacity/images/ICArrow.png not found
+<Sep 4, 2017 4:00:38 PM AEST> <Warning> <com.cramer.core.framework.serviceimpl.ImageServiceImpl> <BEA-000000> <Image https://usm-sqi.eomsys.cloud.corp.telstra.com/CramerOSS/rmwebreports/resources/webreports/capacity/images/ICArrow.png not found>
+Sep 04, 2017 4:00:38 PM com.cramer.core.instancelocator.CramerInstanceLocatorImpl getContainerLocation
+INFO: CramerInstanceLocatorImpl:getContainerLocation(): location for app RMViews for tier com.cramer.instancelocatorlocator.web for instance com.cramer.core.instancelocator.CramerInstanceLocatorImpl$CramerInstance@16cd877c is https://usm-sqi.eomsys.cloud.corp.telstra.com/CramerOSS/
+Sep 04, 2017 4:00:38 PM com.cramer.core.framework.serviceimpl.ImageServiceImpl getURLImage
+WARNING: Image https://usm-sqi.eomsys.cloud.corp.telstra.com/CramerOSS/RMViews/resources/viewscommon/images/browser_s_protectionfull.png not found
+<Sep 4, 2017 4:00:38 PM AEST> <Warning> <com.cramer.core.framework.serviceimpl.ImageServiceImpl> <BEA-000000> <Image https://usm-sqi.eomsys.cloud.corp.telstra.com/CramerOSS/RMViews/resources/viewscommon/images/browser_s_protectionfull.png not found>
+Sep 04, 2017 4:00:38 PM com.cramer.core.instancelocator.CramerInstanceLocatorImpl getContainerLocation
+INFO: CramerInstanceLocatorImpl:getContainerLocation(): location for app RMViews for tier com.cramer.instancelocatorlocator.web for instance com.cramer.core.instancelocator.CramerInstanceLocatorImpl$CramerInstance@16cd877c is https://usm-sqi.eomsys.cloud.corp.telstra.com/CramerOSS/
+Sep 04, 2017 4:00:38 PM com.cramer.core.framework.serviceimpl.ImageServiceImpl getURLImage
+WARNING: Image https://usm-sqi.eomsys.cloud.corp.telstra.com/CramerOSS/RMViews/resources/viewscommon/images/s_modifiedinplan.png not found
+<Sep 4, 2017 4:00:38 PM AEST> <Warning> <com.cramer.core.framework.serviceimpl.ImageServiceImpl> <BEA-000000> <Image https://usm-sqi.eomsys.cloud.corp.telstra.com/CramerOSS/RMViews/resources/viewscommon/images/s_modifiedinplan.png not found>
+Sep 04, 2017 4:00:38 PM com.cramer.core.instancelocator.CramerInstanceLocatorImpl getContainerLocation
+INFO: CramerInstanceLocatorImpl:getContainerLocation(): location for app rmwebreports for tier com.cramer.instancelocatorlocator.web for instance com.cramer.core.instancelocator.CramerInstanceLocatorImpl$CramerInstance@16cd877c is https://usm-sqi.eomsys.cloud.corp.telstra.com/CramerOSS/
+Sep 04, 2017 4:00:38 PM com.cramer.core.framework.serviceimpl.ImageServiceImpl getURLImage
+WARNING: Image https://usm-sqi.eomsys.cloud.corp.telstra.com/CramerOSS/rmwebreports/resources/webreports/capacity/images/downArrow.png not found
+<Sep 4, 2017 4:00:38 PM AEST> <Warning> <com.cramer.core.framework.serviceimpl.ImageServiceImpl> <BEA-000000> <Image https://usm-sqi.eomsys.cloud.corp.telstra.com/CramerOSS/rmwebreports/resources/webreports/capacity/images/downArrow.png not found>
+Sep 04, 2017 4:00:38 PM com.cramer.core.instancelocator.CramerInstanceLocatorImpl getContainerLocation
+INFO: CramerInstanceLocatorImpl:getContainerLocation(): location for app RMViews for tier com.cramer.instancelocatorlocator.web for instance com.cramer.core.instancelocator.CramerInstanceLocatorImpl$CramerInstance@16cd877c is https://usm-sqi.eomsys.cloud.corp.telstra.com/CramerOSS/
+Sep 04, 2017 4:00:38 PM com.cramer.core.framework.serviceimpl.ImageServiceImpl getURLImage
+Sep 04, 2017 4:00:39 PM com.cramer.core.instancelocator.CramerInstanceLocatorImpl getContainerLocation
+INFO: CramerInstanceLocatorImpl:getContainerLocation(): location for app RMViews for tier com.cramer.instancelocatorlocator.web for instance com.cramer.core.instancelocator.CramerInstanceLocatorImpl$CramerInstance@16cd877c is https://usm-sqi.eomsys.cloud.corp.telstra.com/CramerOSS/
+Sep 04, 2017 4:00:39 PM com.cramer.core.framework.serviceimpl.ImageServiceImpl getURLImage
+WARNING: Image https://usm-sqi.eomsys.cloud.corp.telstra.com/CramerOSS/RMViews/resources/viewscommon/images/browser_site_s_unresolved_unallocated.png not found
+<Sep 4, 2017 4:00:39 PM AEST> <Warning> <com.cramer.core.framework.serviceimpl.ImageServiceImpl> <BEA-000000> <Image https://usm-sqi.eomsys.cloud.corp.telstra.com/CramerOSS/RMViews/resources/viewscommon/images/browser_site_s_unresolved_unallocated.png not found>
+Sep 04, 2017 4:00:39 PM com.cramer.core.instancelocator.CramerInstanceLocatorImpl getContainerLocation
+INFO: CramerInstanceLocatorImpl:getContainerLocation(): location for app rmwebreports for tier com.cramer.instancelocatorlocator.web for instance com.cramer.core.instancelocator.CramerInstanceLocatorImpl$CramerInstance@16cd877c is https://usm-sqi.eomsys.cloud.corp.telstra.com/CramerOSS/
+Sep 04, 2017 4:00:39 PM com.cramer.core.framework.serviceimpl.ImageServiceImpl getURLImage
+WARNING: Image https://usm-sqi.eomsys.cloud.corp.telstra.com/CramerOSS/rmwebreports/resources/webreports/capacity/images/upArrow.png not found
+<Sep 4, 2017 4:00:39 PM AEST> <Warning> <com.cramer.core.framework.serviceimpl.ImageServiceImpl> <BEA-000000> <Image https://usm-sqi.eomsys.cloud.corp.telstra.com/CramerOSS/rmwebreports/resources/webreports/capacity/images/upArrow.png not found>
+Sep 04, 2017 4:00:39 PM com.cramer.core.instancelocator.CramerInstanceLocatorImpl getContainerLocation
+INFO: CramerInstanceLocatorImpl:getContainerLocation(): location for app RMViews for tier com.cramer.instancelocatorlocator.web for instance com.cramer.core.instancelocator.CramerInstanceLocatorImpl$CramerInstance@16cd877c is https://usm-sqi.eomsys.cloud.corp.telstra.com/CramerOSS/
+Sep 04, 2017 4:00:39 PM com.cramer.core.framework.serviceimpl.ImageServiceImpl getURLImage
+WARNING: Image https://usm-sqi.eomsys.cloud.corp.telstra.com/CramerOSS/RMViews/resources/viewscommon/images/issuefailed.png not found
+<Sep 4, 2017 4:00:39 PM AEST> <Warning> <com.cramer.core.framework.serviceimpl.ImageServiceImpl> <BEA-000000> <Image https://usm-sqi.eomsys.cloud.corp.telstra.com/CramerOSS/RMViews/resources/viewscommon/images/issuefailed.png not found>
+Sep 04, 2017 4:00:39 PM com.cramer.core.instancelocator.CramerInstanceLocatorImpl getContainerLocation
+INFO: CramerInstanceLocatorImpl:getContainerLocation(): location for app rmwebreports for tier com.cramer.instancelocatorlocator.web for instance com.cramer.core.instancelocator.CramerInstanceLocatorImpl$CramerInstance@16cd877c is https://usm-sqi.eomsys.cloud.corp.telstra.com/CramerOSS/
+Sep 04, 2017 4:00:39 PM com.cramer.core.framework.serviceimpl.ImageServiceImpl getURLImage
+WARNING: Image https://usm-sqi.eomsys.cloud.corp.telstra.com/CramerOSS/rmwebreports/resources/webreportscommon/images/webreport_uncertain_result.png not found
+<Sep 4, 2017 4:00:39 PM AEST> <Warning> <com.cramer.core.framework.serviceimpl.ImageServiceImpl> <BEA-000000> <Image https://usm-sqi.eomsys.cloud.corp.telstra.com/CramerOSS/rmwebreports/resources/webreportscommon/images/webreport_uncertain_result.png not found>
+Sep 04, 2017 4:00:39 PM com.cramer.core.instancelocator.CramerInstanceLocatorImpl getContainerLocation
+INFO: CramerInstanceLocatorImpl:getContainerLocation(): location for app RMViews for tier com.cramer.instancelocatorlocator.web for instance com.cramer.core.instancelocator.CramerInstanceLocatorImpl$CramerInstance@16cd877c is https://usm-sqi.eomsys.cloud.corp.telstra.com/CramerOSS/
+Sep 04, 2017 4:00:39 PM com.cramer.core.framework.serviceimpl.ImageServiceImpl getURLImage
+WARNING: Image https://usm-sqi.eomsys.cloud.corp.telstra.com/CramerOSS/RMViews/resources/viewscommon/images/browser_s_protecting.png not found
+<Sep 4, 2017 4:00:39 PM AEST> <Warning> <com.cramer.core.framework.serviceimpl.ImageServiceImpl> <BEA-000000> <Image https://usm-sqi.eomsys.cloud.corp.telstra.com/CramerOSS/RMViews/resources/viewscommon/images/browser_s_protecting.png not found>
+Sep 04, 2017 4:00:39 PM com.cramer.core.instancelocator.CramerInstanceLocatorImpl getContainerLocation
+INFO: CramerInstanceLocatorImpl:getContainerLocation(): location for app RMViews for tier com.cramer.instancelocatorlocator.web for instance com.cramer.core.instancelocator.CramerInstanceLocatorImpl$CramerInstance@16cd877c is https://usm-sqi.eomsys.cloud.corp.telstra.com/CramerOSS/
+Sep 04, 2017 4:00:39 PM com.cramer.core.framework.serviceimpl.ImageServiceImpl getURLImage
+WARNING: Image https://usm-sqi.eomsys.cloud.corp.telstra.com/CramerOSS/RMViews/resources/viewscommon/images/s_createdinplan_affectedbyops.png not found
+<Sep 4, 2017 4:00:39 PM AEST> <Warning> <com.cramer.core.framework.serviceimpl.ImageServiceImpl> <BEA-000000> <Image https://usm-sqi.eomsys.cloud.corp.telstra.com/CramerOSS/RMViews/resources/viewscommon/images/s_createdinplan_affectedbyops.png not found>
+Sep 04, 2017 4:00:39 PM com.cramer.core.instancelocator.CramerInstanceLocatorImpl getContainerLocation
+INFO: CramerInstanceLocatorImpl:getContainerLocation(): location for app RMViews for tier com.cramer.instancelocatorlocator.web for instance com.cramer.core.instancelocator.CramerInstanceLocatorImpl$CramerInstance@16cd877c is https://usm-sqi.eomsys.cloud.corp.telstra.com/CramerOSS/
+Sep 04, 2017 4:00:39 PM com.cramer.core.framework.serviceimpl.ImageServiceImpl getURLImage
+WARNING: Image https://usm-sqi.eomsys.cloud.corp.telstra.com/CramerOSS/RMViews/resources/viewscommon/images/ViewTopology.png not found
+<Sep 4, 2017 4:00:39 PM AEST> <Warning> <com.cramer.core.framework.serviceimpl.ImageServiceImpl> <BEA-000000> <Image https://usm-sqi.eomsys.cloud.corp.telstra.com/CramerOSS/RMViews/resources/viewscommon/images/ViewTopology.png not found>
+Sep 04, 2017 4:00:39 PM com.cramer.core.instancelocator.CramerInstanceLocatorImpl getContainerLocation
+INFO: CramerInstanceLocatorImpl:getContainerLocation(): location for app RMViews for tier com.cramer.instancelocatorlocator.web for instance com.cramer.core.instancelocator.CramerInstanceLocatorImpl$CramerInstance@16cd877c is https://usm-sqi.eomsys.cloud.corp.telstra.com/CramerOSS/
+Sep 04, 2017 4:00:39 PM com.cramer.core.framework.serviceimpl.ImageServiceImpl getURLImage
+Sep 04, 2017 4:00:41 PM com.cramer.core.framework.serviceimpl.ImageServiceImpl getURLImage
+WARNING: Image https://usm-sqi.eomsys.cloud.corp.telstra.com/CramerOSS/rmwebreports/resources/webreportscommon/images/branch.png not found
+<Sep 4, 2017 4:00:41 PM AEST> <Warning> <com.cramer.core.framework.serviceimpl.ImageServiceImpl> <BEA-000000> <Image https://usm-sqi.eomsys.cloud.corp.telstra.com/CramerOSS/rmwebreports/resources/webreportscommon/images/branch.png not found>
+Sep 04, 2017 4:00:41 PM com.cramer.core.instancelocator.CramerInstanceLocatorImpl getContainerLocation
+INFO: CramerInstanceLocatorImpl:getContainerLocation(): location for app RMViews for tier com.cramer.instancelocatorlocator.web for instance com.cramer.core.instancelocator.CramerInstanceLocatorImpl$CramerInstance@16cd877c is https://usm-sqi.eomsys.cloud.corp.telstra.com/CramerOSS/
+Sep 04, 2017 4:00:41 PM com.cramer.core.framework.serviceimpl.ImageServiceImpl getURLImage
+WARNING: Image https://usm-sqi.eomsys.cloud.corp.telstra.com/CramerOSS/RMViews/resources/viewscommon/images/browser_zone_s_allocated_under.png not found
+<Sep 4, 2017 4:00:41 PM AEST> <Warning> <com.cramer.core.framework.serviceimpl.ImageServiceImpl> <BEA-000000> <Image https://usm-sqi.eomsys.cloud.corp.telstra.com/CramerOSS/RMViews/resources/viewscommon/images/browser_zone_s_allocated_under.png not found>
+Sep 04, 2017 4:00:41 PM com.cramer.core.framework.serviceimpl.ImageServiceImpl getImages
+INFO: Returning 0 images
+Sep 04, 2017 4:00:41 PM com.cramer.core.server.CramerConnectionManagerImpl createBaseConnection
+INFO: Using session properties to get connection.:={com.cramer.db_name=USM1AT, tk=, java.naming.security.principal=cn=d865881,cn=Users,dc=USM1AT, com.cramer.asm_ticket=Tksmau3yMXXeGH1vGbgjzept5}KDf0a3ZoSnz8h0}
+Sep 04, 2017 4:00:41 PM com.cramer.core.framework.serviceimpl.ImageServiceDBHelperImpl getImageMap
+INFO: SELECT BITMAPID, FILEURL FROM BITMAP WHERE BEHAVIOUR IS NULL OR BEHAVIOUR <= ?
+Sep 04, 2017 4:00:41 PM com.cramer.core.framework.serviceimpl.ImageServiceDBHelperImpl getImageMap
+INFO: Input parameters : 1
+Sep 04, 2017 4:00:41 PM com.cramer.core.server.CramerConnectionManagerImpl createBaseConnection
+INFO: Using session properties to get connection.:={com.cramer.db_name=USM1AT, tk=, java.naming.security.principal=cn=d865881,cn=Users,dc=USM1AT, com.cramer.asm_ticket=Tksmau3yMXXeGH1vGbgjzept5}KDf0a3ZoSnz8h0}
+Sep 04, 2017 4:00:41 PM com.cramer.core.framework.serviceimpl.ImageServiceDBHelperImpl getObjectRefsToImages
+INFO: SELECT DIMENSIONOBJECTID, TABLENAME, BEHAVIOUR, DIMENSIONOBJECT2BROWSERBITMAP, DIMENSIONOBJECT2TYPEDOID FROM DIMENSIONOBJECT WHERE DIMENSIONOBJECT2BROWSERBITMAP IS NOT NULL
+Sep 04, 2017 4:00:41 PM com.cramer.core.framework.serviceimpl.ImageServiceDBHelperImpl addReportTypeBitmaps
+INFO: SELECT REPORTTYPEID, REPORTTYPE2BROWSERBITMAP FROM REPORTTYPE WHERE REPORTTYPE2BROWSERBITMAP IS NOT NULL AND REPORTTYPE2BROWSERBITMAP != ?
+Sep 04, 2017 4:00:41 PM com.cramer.core.framework.serviceimpl.ImageServiceDBHelperImpl addReportTypeBitmaps
+INFO: SELECT REPORTTYPEID, REPORTTYPE2BROWSERBITMAP FROM REPORTTYPE WHERE REPORTTYPE2BROWSERBITMAP IS NOT NULL AND REPORTTYPE2BROWSERBITMAP != ?
+Sep 04, 2017 4:00:41 PM com.cramer.core.framework.serviceimpl.ImageServiceDBHelperImpl addReportTypeBitmaps
+INFO: Input parameters : 900009
+Sep 04, 2017 4:00:41 PM com.cramer.core.framework.serviceimpl.ImageServiceDBHelperImpl addTypeBitmaps
+INFO: SELECT RPBUILDTEMPLATETYPEID,RPBLTT2BROWSERBITMAP FROM RPBUILDTEMPLATETYPE WHERE RPBLTT2BROWSERBITMAP IS NOT NULL AND RPBLTT2BROWSERBITMAP !=533002
+Sep 04, 2017 4:00:41 PM com.cramer.core.framework.serviceimpl.ImageServiceDBHelperImpl getObjectRefsToImages
+INFO: SELECT DIMENSIONOBJECTID, TABLENAME, BEHAVIOUR, DIMENSIONOBJECT2BROWSERBITMAP, DIMENSIONOBJECT2TYPEDOID FROM DIMENSIONOBJECT WHERE DIMENSIONOBJECT2BROWSERBITMAP IS NOT NULL
+Sep 04, 2017 4:00:41 PM com.cramer.core.framework.serviceimpl.ImageServiceDBHelperImpl getObjectRefsToImages
+INFO: Input parameters : 530001
+Sep 04, 2017 4:00:41 PM com.cramer.core.framework.serviceimpl.ImageServiceDBHelperImpl addTypeBitmaps
+INFO: SELECT RPBUILDTEMPLATETYPEID,RPBLTT2BROWSERBITMAP FROM RPBUILDTEMPLATETYPE WHERE RPBLTT2BROWSERBITMAP IS NOT NULL AND RPBLTT2BROWSERBITMAP !=533002
+Sep 04, 2017 4:00:41 PM com.cramer.core.framework.serviceimpl.ImageServiceDBHelperImpl addTypeBitmaps
+INFO: SELECT ApplicationTypeID,ApplicationType2BROWSERBITMAP FROM ApplicationType WHERE ApplicationType2BROWSERBITMAP IS NOT NULL AND ApplicationType2BROWSERBITMAP !=300010
+Sep 04, 2017 4:00:41 PM com.cramer.core.framework.serviceimpl.ImageServiceDBHelperImpl getObjectRefsToImages
+INFO: SELECT DIMENSIONOBJECTID, TABLENAME, BEHAVIOUR, DIMENSIONOBJECT2BROWSERBITMAP, DIMENSIONOBJECT2TYPEDOID FROM DIMENSIONOBJECT WHERE DIMENSIONOBJECT2BROWSERBITMAP IS NOT NULL
+Sep 04, 2017 4:00:41 PM com.cramer.core.framework.serviceimpl.ImageServiceDBHelperImpl getObjectRefsToImages
+INFO: Input parameters : 300011
+Sep 04, 2017 4:00:41 PM com.cramer.core.framework.serviceimpl.ImageServiceDBHelperImpl addTypeBitmaps
+INFO: SELECT ApplicationTypeID,ApplicationType2BROWSERBITMAP FROM ApplicationType WHERE ApplicationType2BROWSERBITMAP IS NOT NULL AND ApplicationType2BROWSERBITMAP !=300010
+Sep 04, 2017 4:00:41 PM com.cramer.core.framework.serviceimpl.ImageServiceDBHelperImpl addTypeBitmaps
+INFO: SELECT SyncDiffTypeID,SyncDiffType2BROWSERBITMAP FROM SyncDiffType WHERE SyncDiffType2BROWSERBITMAP IS NOT NULL AND SyncDiffType2BROWSERBITMAP !=140001
+Sep 04, 2017 4:00:41 PM com.cramer.core.framework.serviceimpl.ImageServiceDBHelperImpl getObjectRefsToImages
+INFO: SELECT DIMENSIONOBJECTID, TABLENAME, BEHAVIOUR, DIMENSIONOBJECT2BROWSERBITMAP, DIMENSIONOBJECT2TYPEDOID FROM DIMENSIONOBJECT WHERE DIMENSIONOBJECT2BROWSERBITMAP IS NOT NULL
+Sep 04, 2017 4:00:41 PM com.cramer.core.framework.serviceimpl.ImageServiceDBHelperImpl getObjectRefsToImages
+INFO: Input parameters : 47
+Sep 04, 2017 4:00:41 PM com.cramer.core.framework.serviceimpl.ImageServiceDBHelperImpl addTypeBitmaps
+INFO: SELECT SyncDiffTypeID,SyncDiffType2BROWSERBITMAP FROM SyncDiffType WHERE SyncDiffType2BROWSERBITMAP IS NOT NULL AND SyncDiffType2BROWSERBITMAP !=140001
+Sep 04, 2017 4:00:41 PM com.cramer.core.framework.serviceimpl.ImageServiceDBHelperImpl addTypeBitmaps
+INFO: SELECT SyncProcessTypeID,SyncProcessType2BROWSERBITMAP FROM SyncProcessType WHERE SyncProcessType2BROWSERBITMAP IS NOT NULL AND SyncProcessType2BROWSERBITMAP !=140000
+Sep 04, 2017 4:00:41 PM com.cramer.core.framework.serviceimpl.ImageServiceDBHelperImpl getObjectRefsToImages
+INFO: SELECT DIMENSIONOBJECTID, TABLENAME, BEHAVIOUR, DIMENSIONOBJECT2BROWSERBITMAP, DIMENSIONOBJECT2TYPEDOID FROM DIMENSIONOBJECT WHERE DIMENSIONOBJECT2BROWSERBITMAP IS NOT NULL
+Sep 04, 2017 4:00:41 PM com.cramer.core.framework.serviceimpl.ImageServiceDBHelperImpl getObjectRefsToImages
+INFO: Input parameters : 49
+Sep 04, 2017 4:00:41 PM com.cramer.core.framework.serviceimpl.ImageServiceDBHelperImpl addTypeBitmaps
+INFO: SELECT SyncProcessTypeID,SyncProcessType2BROWSERBITMAP FROM SyncProcessType WHERE SyncProcessType2BROWSERBITMAP IS NOT NULL AND SyncProcessType2BROWSERBITMAP !=140000
+Sep 04, 2017 4:00:41 PM com.cramer.core.framework.serviceimpl.ImageServiceDBHelperImpl addTypeBitmaps
+Sep 04, 2017 4:00:41 PM com.cramer.core.framework.serviceimpl.ImageServiceDBHelperImpl addTypeBitmaps
+INFO: SELECT SCPRODUCTTYPEID,SCPT2BROWSERBITMAP FROM SCPRODUCTTYPE WHERE SCPT2BROWSERBITMAP IS NOT NULL AND SCPT2BROWSERBITMAP !=310008
+Sep 04, 2017 4:00:41 PM com.cramer.core.framework.serviceimpl.ImageServiceDBHelperImpl getObjectRefsToImages
+INFO: SELECT DIMENSIONOBJECTID, TABLENAME, BEHAVIOUR, DIMENSIONOBJECT2BROWSERBITMAP, DIMENSIONOBJECT2TYPEDOID FROM DIMENSIONOBJECT WHERE DIMENSIONOBJECT2BROWSERBITMAP IS NOT NULL
+Sep 04, 2017 4:00:41 PM com.cramer.core.framework.serviceimpl.ImageServiceDBHelperImpl getObjectRefsToImages
+INFO: Input parameters : 310006
+Sep 04, 2017 4:00:41 PM com.cramer.core.framework.serviceimpl.ImageServiceDBHelperImpl addTypeBitmaps
+INFO: SELECT SCPRODUCTTYPEID,SCPT2BROWSERBITMAP FROM SCPRODUCTTYPE WHERE SCPT2BROWSERBITMAP IS NOT NULL AND SCPT2BROWSERBITMAP !=310008
+Sep 04, 2017 4:00:41 PM com.cramer.core.framework.serviceimpl.ImageServiceDBHelperImpl addTypeBitmaps
+INFO: SELECT SCPRODUCTFAMILYTYPEID,SCPFT2BROWSERBITMAP FROM SCPRODUCTFAMILYTYPE WHERE SCPFT2BROWSERBITMAP IS NOT NULL AND SCPFT2BROWSERBITMAP !=310009
+Sep 04, 2017 4:00:41 PM com.cramer.core.framework.serviceimpl.ImageServiceDBHelperImpl getObjectRefsToImages
+INFO: SELECT DIMENSIONOBJECTID, TABLENAME, BEHAVIOUR, DIMENSIONOBJECT2BROWSERBITMAP, DIMENSIONOBJECT2TYPEDOID FROM DIMENSIONOBJECT WHERE DIMENSIONOBJECT2BROWSERBITMAP IS NOT NULL
+Sep 04, 2017 4:00:41 PM com.cramer.core.framework.serviceimpl.ImageServiceDBHelperImpl getObjectRefsToImages
+INFO: Input parameters : 310008
+Sep 04, 2017 4:00:41 PM com.cramer.core.framework.serviceimpl.ImageServiceDBHelperImpl addTypeBitmaps
+INFO: SELECT SCPRODUCTFAMILYTYPEID,SCPFT2BROWSERBITMAP FROM SCPRODUCTFAMILYTYPE WHERE SCPFT2BROWSERBITMAP IS NOT NULL AND SCPFT2BROWSERBITMAP !=310009
+Sep 04, 2017 4:00:41 PM com.cramer.core.framework.serviceimpl.ImageServiceDBHelperImpl addTypeBitmaps
+INFO: SELECT LogicalEnvironmentTypeID,LOGICALENVTYPE2BROWSERBITMAP FROM LogicalEnvironmentType WHERE LOGICALENVTYPE2BROWSERBITMAP IS NOT NULL AND LOGICALENVTYPE2BROWSERBITMAP !=300011
+Sep 04, 2017 4:00:41 PM com.cramer.core.framework.serviceimpl.ImageServiceDBHelperImpl getObjectRefsToImages
+INFO: SELECT DIMENSIONOBJECTID, TABLENAME, BEHAVIOUR, DIMENSIONOBJECT2BROWSERBITMAP, DIMENSIONOBJECT2TYPEDOID FROM DIMENSIONOBJECT WHERE DIMENSIONOBJECT2BROWSERBITMAP IS NOT NULL
+Sep 04, 2017 4:00:41 PM com.cramer.core.framework.serviceimpl.ImageServiceDBHelperImpl getObjectRefsToImages
+INFO: Input parameters : 300010
+Sep 04, 2017 4:00:41 PM com.cramer.core.framework.serviceimpl.ImageServiceDBHelperImpl addTypeBitmaps
+INFO: SELECT LogicalEnvironmentTypeID,LOGICALENVTYPE2BROWSERBITMAP FROM LogicalEnvironmentType WHERE LOGICALENVTYPE2BROWSERBITMAP IS NOT NULL AND LOGICALENVTYPE2BROWSERBITMAP !=300011
+Sep 04, 2017 4:00:41 PM com.cramer.core.framework.serviceimpl.ImageServiceDBHelperImpl getObjectRefsToImages
+INFO: SELECT DIMENSIONOBJECTID, TABLENAME, BEHAVIOUR, DIMENSIONOBJECT2BROWSERBITMAP, DIMENSIONOBJECT2TYPEDOID FROM DIMENSIONOBJECT WHERE DIMENSIONOBJECT2BROWSERBITMAP IS NOT NULL
+Sep 04, 2017 4:00:41 PM com.cramer.core.framework.serviceimpl.ImageServiceDBHelperImpl getObjectRefsToImages
+INFO: Input parameters : 101
+Sep 04, 2017 4:00:41 PM com.cramer.core.framework.serviceimpl.ImageServiceDBHelperImpl addTypeBitmaps
+INFO: SELECT cableconductortypeID,CCTY2BROWSERBITMAP FROM cableconductortype WHERE CCTY2BROWSERBITMAP IS NOT NULL AND CCTY2BROWSERBITMAP !=123
+Sep 04, 2017 4:00:41 PM com.cramer.core.framework.serviceimpl.ImageServiceDBHelperImpl getObjectRefsToImages
+INFO: SELECT DIMENSIONOBJECTID, TABLENAME, BEHAVIOUR, DIMENSIONOBJECT2BROWSERBITMAP, DIMENSIONOBJECT2TYPEDOID FROM DIMENSIONOBJECT WHERE DIMENSIONOBJECT2BROWSERBITMAP IS NOT NULL
+Sep 04, 2017 4:00:41 PM com.cramer.core.framework.serviceimpl.ImageServiceDBHelperImpl getObjectRefsToImages
+INFO: Input parameters : 590011
+Sep 04, 2017 4:00:41 PM com.cramer.core.framework.serviceimpl.ImageServiceDBHelperImpl addTypeBitmaps
+INFO: SELECT USMServiceTypeID,USMServiceType2BROWSERBITMAP FROM USMServiceType WHERE USMServiceType2BROWSERBITMAP IS NOT NULL AND USMServiceType2BROWSERBITMAP !=36
+Sep 04, 2017 4:00:41 PM com.cramer.core.framework.serviceimpl.ImageServiceDBHelperImpl addTypeBitmaps
+INFO: SELECT RPPLANTYPEID,RPPLANTYPE2BROWSERBITMAP FROM RPPLANTYPE WHERE RPPLANTYPE2BROWSERBITMAP IS NOT NULL AND RPPLANTYPE2BROWSERBITMAP !=832001
+Sep 04, 2017 4:00:41 PM com.cramer.core.framework.serviceimpl.ImageServiceDBHelperImpl getObjectRefsToImages
+INFO: SELECT DIMENSIONOBJECTID, TABLENAME, BEHAVIOUR, DIMENSIONOBJECT2BROWSERBITMAP, DIMENSIONOBJECT2TYPEDOID FROM DIMENSIONOBJECT WHERE DIMENSIONOBJECT2BROWSERBITMAP IS NOT NULL
+Sep 04, 2017 4:00:41 PM com.cramer.core.framework.serviceimpl.ImageServiceDBHelperImpl getObjectRefsToImages
+INFO: Input parameters : 830000
+Sep 04, 2017 4:00:41 PM com.cramer.core.framework.serviceimpl.ImageServiceDBHelperImpl addTypeBitmaps
+INFO: SELECT RPPLANTYPEID,RPPLANTYPE2BROWSERBITMAP FROM RPPLANTYPE WHERE RPPLANTYPE2BROWSERBITMAP IS NOT NULL AND RPPLANTYPE2BROWSERBITMAP !=832001
+Sep 04, 2017 4:00:41 PM com.cramer.core.framework.serviceimpl.ImageServiceDBHelperImpl addTypeBitmaps
+INFO: SELECT SFAOrderTypeID,SFAOrderType2BROWSERBITMAP FROM SFAOrderType WHERE SFAOrderType2BROWSERBITMAP IS NOT NULL AND SFAOrderType2BROWSERBITMAP !=310006
+Sep 04, 2017 4:00:41 PM com.cramer.core.framework.serviceimpl.ImageServiceDBHelperImpl getObjectRefsToImages
+INFO: SELECT DIMENSIONOBJECTID, TABLENAME, BEHAVIOUR, DIMENSIONOBJECT2BROWSERBITMAP, DIMENSIONOBJECT2TYPEDOID FROM DIMENSIONOBJECT WHERE DIMENSIONOBJECT2BROWSERBITMAP IS NOT NULL
+Sep 04, 2017 4:00:41 PM com.cramer.core.framework.serviceimpl.ImageServiceDBHelperImpl getObjectRefsToImages
+INFO: Input parameters : 656002
+Sep 04, 2017 4:00:41 PM com.cramer.core.framework.serviceimpl.ImageServiceDBHelperImpl addTypeBitmaps
+INFO: SELECT SFAOrderTypeID,SFAOrderType2BROWSERBITMAP FROM SFAOrderType WHERE SFAOrderType2BROWSERBITMAP IS NOT NULL AND SFAOrderType2BROWSERBITMAP !=310006
+Sep 04, 2017 4:00:41 PM com.cramer.core.framework.serviceimpl.ImageServiceDBHelperImpl addTypeBitmaps
+INFO: SELECT SCSERVICECOMPONENTTYPEID,SCSCT2BROWSERBITMAP FROM SCSERVICECOMPONENTTYPE WHERE SCSCT2BROWSERBITMAP IS NOT NULL AND SCSCT2BROWSERBITMAP !=310011
+Sep 04, 2017 4:00:41 PM com.cramer.core.framework.serviceimpl.ImageServiceDBHelperImpl getObjectRefsToImages
+INFO: SELECT DIMENSIONOBJECTID, TABLENAME, BEHAVIOUR, DIMENSIONOBJECT2BROWSERBITMAP, DIMENSIONOBJECT2TYPEDOID FROM DIMENSIONOBJECT WHERE DIMENSIONOBJECT2BROWSERBITMAP IS NOT NULL
+Sep 04, 2017 4:00:41 PM com.cramer.core.framework.serviceimpl.ImageServiceDBHelperImpl getObjectRefsToImages
+INFO: Input parameters : 310004
+Sep 04, 2017 4:00:41 PM com.cramer.core.framework.serviceimpl.ImageServiceDBHelperImpl addTypeBitmaps
+INFO: SELECT SCSERVICECOMPONENTTYPEID,SCSCT2BROWSERBITMAP FROM SCSERVICECOMPONENTTYPE WHERE SCSCT2BROWSERBITMAP IS NOT NULL AND SCSCT2BROWSERBITMAP !=310004
+Sep 04, 2017 4:00:41 PM com.cramer.core.framework.serviceimpl.ImageServiceDBHelperImpl addTypeBitmaps
+INFO: SELECT ShelfTypeID,ShelfType2BROWSERBITMAP FROM ShelfType WHERE ShelfType2BROWSERBITMAP IS NOT NULL AND ShelfType2BROWSERBITMAP !=38
+
+.....
+Sep 04, 2017 4:00:50 PM com.cramer.core.sso.ApplicationFilter checkForCSRFAttack
+INFO: ApplicatioFilter: CSRF attack validation is not required...true
+Sep 04, 2017 4:00:50 PM com.cramer.core.sso.SSOHelper getASMTicketFromCookie
+INFO: Found ASM Cookie
+Sep 04, 2017 4:00:50 PM com.cramer.core.sso.ApplicationFilter checkForCSRFAttack
+INFO: ApplicatioFilter: CSRF attack validation is not required...true
+Sep 04, 2017 4:00:50 PM com.cramer.core.sso.SSOHelper getASMTicketFromCookie
+INFO: Found ASM Cookie
+Sep 04, 2017 4:00:50 PM com.cramer.core.sso.ApplicationFilter checkForCSRFAttack
+INFO: ApplicatioFilter: CSRF token value from Session object: 7e94d53f1b7ab7b6c66230f2543a1be2
+Sep 04, 2017 4:00:50 PM com.cramer.core.sso.ApplicationFilter checkForCSRFAttack
+INFO: ApplicatioFilter: CSRF token value from Request object: 7e94d53f1b7ab7b6c66230f2543a1be2
+Sep 04, 2017 4:00:50 PM com.cramer.core.sso.ApplicationFilter checkForTokenMismatch
+INFO: ApplicatioFilter: Token is matching, serving valid request...
+Sep 04, 2017 4:00:50 PM com.cramer.core.server.CramerConnectionManagerImpl createBaseConnection
+INFO: Using session properties to get connection.:={com.cramer.db_name=USM1AT, tk=, java.naming.security.principal=cn=d865881,cn=Users,dc=USM1AT, com.cramer.asm_ticket=Tksmau3yMXXeGH1vGbgjzept5}KDf0a3ZoSnz8h0}
+Sep 04, 2017 4:00:50 PM com.cramer.core.framework.serviceimpl.BundleServiceHelper createBundle
+INFO: select b.bundleid from bundle b, locale l where b.name = ? and l.localeid = localeID
+Sep 04, 2017 4:00:51 PM com.cramer.core.sso.SSOHelper getASMTicketFromCookie
+INFO: Found ASM Cookie
+Sep 04, 2017 4:00:51 PM com.cramer.core.sso.ApplicationFilter checkForCSRFAttack
+INFO: ApplicatioFilter: CSRF token value from Session object: 7e94d53f1b7ab7b6c66230f2543a1be2
+Sep 04, 2017 4:00:51 PM com.cramer.core.sso.ApplicationFilter checkForCSRFAttack
+INFO: ApplicatioFilter: CSRF token value from Request object: 7e94d53f1b7ab7b6c66230f2543a1be2
+Sep 04, 2017 4:00:51 PM com.cramer.core.sso.ApplicationFilter checkForTokenMismatch
+INFO: ApplicatioFilter: Token is matching, serving valid request...
+Sep 04, 2017 4:00:51 PM com.cramer.core.framework.serviceimpl.WizardRegistrarImpl enumerateWizards
+INFO: Client Axis servlet is https://usm-sqi.eomsys.cloud.corp.telstra.com/CramerOSS/Client/servlet/AxisServlet
+Sep 04, 2017 4:00:51 PM com.cramer.core.axisclient.CramerHTTPSender invoke
+INFO: Sending explicit cookie: ticket=VGtzbWF1M3lNWFhlR0gxdkdiZ2p6ZXB0NX1LRGYwYTNab1NuejhoMA==
+Sep 04, 2017 4:00:51 PM com.cramer.core.axisclient.CramerHTTPSender invoke
+INFO: XML sent
+Sep 04, 2017 4:00:51 PM com.cramer.core.axisclient.CramerHTTPSender invoke
+INFO: ResponseCode: 302
+Sep 04, 2017 4:00:51 PM com.cramer.core.axisclient.CramerHTTPSender invoke
+INFO: ResponseMessage: Found
+Sep 04, 2017 4:00:51 PM com.cramer.core.common.CramerException <init>
+WARNING: null
+AxisFault
+ faultCode: {http://schemas.xmlsoap.org/soap/envelope/}Server.userException
+ faultSubcode:
+ faultString: java.lang.RuntimeException: Redirecting to https://signon.fn3.np.in.telstra.com.au:443/login?goto=http%3A%2F%2Fusm-sqi.eomsys.cloud.corp.telstra.com%3A443%2FCramerOSS%2FClient%2Fservlet%2FAxisServlet%3Finstance%3DUSM1AT%26csrftoken%3D7e94d53f1b7ab7b6c66230f2543a1be2 caught null
+ faultActor:
+ faultNode:
+ faultDetail:
+        {http://xml.apache.org/axis/}stackTrace:java.lang.RuntimeException: Redirecting to https://signon.fn3.np.in.telstra.com.au:443/login?goto=http%3A%2F%2Fusm-sqi.eomsys.cloud.corp.telstra.com%3A443%2FCramerOSS%2FClient%2Fservlet%2FAxisServlet%3Finstance%3DUSM1AT%26csrftoken%3D7e94d53f1b7ab7b6c66230f2543a1be2 caught null
+        at com.cramer.core.axisclient.CramerHTTPSender.redirectTo(CramerHTTPSender.java:427)
+        at com.cramer.core.axisclient.CramerHTTPSender.invoke(CramerHTTPSender.java:328)
+        at org.apache.axis.strategies.InvocationStrategy.visit(InvocationStrategy.java:32)
+        at org.apache.axis.SimpleChain.doVisiting(SimpleChain.java:118)
+        at org.apache.axis.SimpleChain.invoke(SimpleChain.java:83)
+        at org.apache.axis.client.AxisClient.invoke(AxisClient.java:165)
+
+
+Caused by: java.lang.RuntimeException: Redirecting to https://signon.fn3.np.in.telstra.com.au:443/login?goto=http%3A%2F%2Fusm-sqi.eomsys.cloud.corp.telstra.com%3A443%2FCramerOSS%2FClient%2Fservlet%2FAxisServlet%3Finstance%3DUSM1AT%26csrftoken%3D7e94d53f1b7ab7b6c66230f2543a1be2 caught null
+        at com.cramer.core.axisclient.CramerHTTPSender.redirectTo(CramerHTTPSender.java:427)
+        at com.cramer.core.axisclient.CramerHTTPSender.invoke(CramerHTTPSender.java:328)
+        at org.apache.axis.strategies.InvocationStrategy.visit(InvocationStrategy.java:32)
+        at org.apache.axis.SimpleChain.doVisiting(SimpleChain.java:118)
+        at org.apache.axis.SimpleChain.invoke(SimpleChain.java:83)
+        at org.apache.axis.client.AxisClient.invoke(AxisClient.java:165)
+        ... 49 more
+ ,FaultID=15E4B7A2BFA8AC38EA4B70C974C,Message=java.lang.RuntimeException: Redirecting to https://signon.fn3.np.in.telstra.com.au:443/login?goto=http%3A%2F%2Fusm-sqi.eomsys.cloud.corp.telstra.com%3A443%2FCramerOSS%2FClient%2Fservlet%2FAxisServlet%3Finstance%3DUSM1AT%26csrftoken%3D7e94d53f1b7ab7b6c66230f2543a1be2 caught null
+        at com.cramer.core.framework.serviceimpl.WizardRegistrarImpl.enumerateWizards(WizardRegistrarImpl.java:145)
+        at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+        at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+        at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+        at java.lang.reflect.Method.invoke(Method.java:498)
+        at org.apache.axis.providers.java.RPCProvider.invokeMethod(RPCProvider.java:397)
+        at com.cramer.core.axis.CramerRPCProvider.invokeMethod(CramerRPCProvider.java:110)
+Caused by: java.lang.RuntimeException: Redirecting to https://signon.fn3.np.in.telstra.com.au:443/login?goto=http%3A%2F%2Fusm-sqi.eomsys.cloud.corp.telstra.com%3A443%2FCramerOSS%2FClient%2Fservlet%2FAxisServlet%3Finstance%3DUSM1AT%26csrftoken%3D7e94d53f1b7ab7b6c66230f2543a1be2 caught null
+        at org.apache.axis.AxisFault.makeFault(AxisFault.java:101)
+        at org.apache.axis.client.AxisClient.invoke(AxisClient.java:216)
+        at org.apache.axis.client.Call.invokeEngine(Call.java:2784)
+        at org.apache.axis.client.Call.invoke(Call.java:2767)
+        at org.apache.axis.client.Call.invoke(Call.java:2443)
+
+......
+
+.....
+
+
+Sep 04, 2017 4:01:20 PM com.cramer.web.framework.taglib.clientframework.URLManipulator processAbsoluteURL
+INFO: The value returned from processURL is https://usm-sqi.eomsys.cloud.corp.telstra.com:443/CramerOSS/RMViews/resources/graphicsframework/dtds/svg10.dtd
+Sep 04, 2017 4:01:20 PM com.cramer.core.framework.service.UserPreferenceImpl getErrorNumberingActive
+INFO: Getting the Error Numbers Active Flag
+Sep 04, 2017 4:01:20 PM com.cramer.web.framework.common.ServerBundleManagerImpl getBundle
+INFO: ServerBundleManagerImpl.getBundle errorNum:false
+Sep 04, 2017 4:01:20 PM com.cramer.web.framework.common.BundleCacheImpl getBundle
+INFO: Trying to get the ResourceBundle for a locale 'en' and basename 'Cramer5GraphicsViews' with Errornumbers :false
+Sep 04, 2017 4:01:20 PM com.cramer.web.graphics.framework.taglib.ViewHelperTag doStartTag
+INFO: ViewHelper type instantiated
+Sep 04, 2017 4:01:20 PM com.cramer.web.graphics.framework.BasicViewHelper initialiseRootContainer
+INFO: autolayout: true
+Sep 04, 2017 4:01:20 PM com.cramer.web.graphics.framework.BasicViewHelper initialiseRootContainer
+INFO: Looking up COM data using ket: com.cramer.web.graphics.framework.action.ActionFrameDef.viewContentFrameDataModel
+Sep 04, 2017 4:01:20 PM com.cramer.web.framework.common.WebInventoryFactory getInventory
+INFO: getting the locale....
+Sep 04, 2017 4:01:20 PM com.cramer.web.graphics.framework.taglib.ViewHelperTag doStartTag
+INFO:   Root container initialised.
+Sep 04, 2017 4:01:20 PM com.cramer.core.framework.service.UserPreferenceImpl getErrorNumberingActive
+INFO: Getting the Error Numbers Active Flag
+Sep 04, 2017 4:01:20 PM com.cramer.web.framework.common.ServerBundleManagerImpl getBundle
+INFO: ServerBundleManagerImpl.getBundle errorNum:false
+Sep 04, 2017 4:01:20 PM com.cramer.web.framework.common.BundleCacheImpl getBundle
+INFO: Trying to get the ResourceBundle for a locale 'en' and basename 'CramerLookAndFeel' with Errornumbers :false
+Sep 04, 2017 4:01:20 PM com.cramer.web.graphics.framework.Symbol draw
+WARNING: Symbol creation failed for bitmap ID=229
+weblogic.net.http.HttpUnauthorizedException: Auth scheme Negotiate is not supported!
+        at weblogic.net.http.HttpURLConnection.getSchemeAndRealm(HttpURLConnection.java:550)
+        at weblogic.net.http.HttpURLConnection.getServerBasicCredentials(HttpURLConnection.java:497)
+        at weblogic.net.http.HttpURLConnection.getInputStream(HttpURLConnection.java:762)
+        at weblogic.net.http.SOAPHttpsURLConnection.getInputStream(SOAPHttpsURLConnection.java:37)
+        at java.net.URL.openStream(URL.java:1045)
+        at com.cramer.web.graphics.framework.Symbol.draw(Symbol.java:116)
+        at com.cramer.web.graphics.framework.taglib.WriteSymbolTag.doStartTag(WriteSymbolTag.java:72)
+        at jsp_servlet._web_45_inf._views._startup.__view._jsp__tag9(__view.java:588)
+        at jsp_servlet._web_45_inf._views._startup.__view._jsp__tag8(__view.java:557)
+        at jsp_servlet._web_45_inf._views._startup.__view._jsp__tag5(__view.java:440)
+        at jsp_servlet._web_45_inf._views._startup.__view._jsp__tag0(__view.java:206)
+        at jsp_servlet._web_45_inf._views._startup.__view._jspService(__view.java:148)
+<Sep 4, 2017 4:01:20 PM AEST> <Warning> <com.cramer.web.graphics.framework.Symbol> <BEA-000000> <Symbol creation failed for bitmap ID=229
+weblogic.net.http.HttpUnauthorizedException: Auth scheme Negotiate is not supported!
+        at weblogic.net.http.HttpURLConnection.getSchemeAndRealm(HttpURLConnection.java:550)
+        at weblogic.net.http.HttpURLConnection.getServerBasicCredentials(HttpURLConnection.java:497)
+        at weblogic.net.http.HttpURLConnection.getInputStream(HttpURLConnection.java:762)
+        at weblogic.net.http.SOAPHttpsURLConnection.getInputStream(SOAPHttpsURLConnection.java:37)
+        at java.net.URL.openStream(URL.java:1045)
+        Truncated. see log file for complete stacktrace
+>
+Sep 04, 2017 4:01:20 PM com.cramer.web.graphics.framework.Symbol draw
+WARNING: Check file exists at URL: https://usm-sqi.eomsys.cloud.corp.telstra.com/CramerOSS/RMViews/resources/graphicsframework/images/not_found_image.svg
+<Sep 4, 2017 4:01:20 PM AEST> <Warning> <com.cramer.web.graphics.framework.Symbol> <BEA-000000> <Check file exists at URL: https://usm-sqi.eomsys.cloud.corp.telstra.com/CramerOSS/RMViews/resources/graphicsframework/images/not_found_image.svg>
+Sep 04, 2017 4:01:20 PM com.cramer.web.framework.common.WebInventoryFactory getInventory
+INFO: getting the locale....
+Sep 04, 2017 4:01:20 PM com.cramer.objectmodel.server.persistence.dao.InventoryDAO getConnection
+INFO: About to get Connection
+Sep 04, 2017 4:01:20 PM com.cramer.core.server.CramerConnectionManagerImpl createBaseConnection
+INFO: Using session properties to get connection.:={com.cramer.db_name=USM1AT, tk=, java.naming.security.principal=cn=d865881,cn=Users,dc=USM1AT, com.cramer.asm_ticket=Tksmau3yMXXeGH1vGbgjzept5}KDf0a3ZoSnz8h0}
+Sep 04, 2017 4:01:20 PM com.cramer.core.server.ConnectionFactoryImpl getConnection
+INFO: JDBC driver version is 12.1.0.2.0
+Sep 04, 2017 4:01:20 PM com.cramer.api.framework.NoTransactionManager doBegin
+INFO: Created connection com.sun.proxy.$Proxy171@1119751601[weblogic.jdbc.wrapper.PoolConnection_oracle_jdbc_driver_T4CConnection@166b]
+Sep 04, 2017 4:01:20 PM com.cramer.objectmodel.server.persistence.querybuilder.SimpleQueryBuilder getStatement
+INFO: Generated SQL: 'SELECT /*+ USE_NL(DimensionObject) */ sysdate RETRIEVALDATE, CONCAT('CLASS', NULL) CRAMEROBJECTCLASSNAME, DIMENSIONOBJECT.BEHAVIOUR BEHAVIOR, DimensionObject.dimensionobjectid TYPEID, DimensionObject.dimensionobjectid ID, DimensionObject.NAME NAME FROM DimensionObject WHERE DimensionObject.dimensionobjectid IN (81)'
+Sep 04, 2017 4:01:20 PM com.cramer.core.server.ConnectionFactoryImpl close
+INFO: Closing resultset: weblogic.jdbc.wrapper.ResultSet_oracle_jdbc_driver_ForwardOnlyResultSet@1afd
+Sep 04, 2017 4:01:20 PM com.cramer.core.server.ConnectionFactoryImpl close
+
+
+
+
+
